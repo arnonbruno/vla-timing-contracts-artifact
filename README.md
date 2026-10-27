@@ -1,4 +1,4 @@
-# Anonymous supplementary artifact
+# ICIT 2027 supplementary artifact
 
 IEEE multimedia instructions are in `ReadMe.txt`.
 One-paragraph contribution: `Summary.txt`.
