@@ -1,0 +1,37 @@
+{
+  "schema": "analysis_c1_summary_v1",
+  "delta_eq": 0.005,
+  "note": "Report observed FF rates; do not target historical 121",
+  "regimes": {
+    "REG-PIPE-NOM": {
+      "n_pairs": 80,
+      "delta_J": {
+        "n": 80,
+        "mean": -0.0007274436660424987,
+        "ci90": [
+          -0.0020591315069231004,
+          0.0003637079596483142
+        ]
+      },
+      "equivalence_CI_containment": true,
+      "MO_carrier_FF_count": 23,
+      "MO_carrier_FF_per_episode_mean": 0.2875,
+      "I_u_frac_mean": 0.06229166666666667
+    },
+    "REG-PIPE-CPU": {
+      "n_pairs": 80,
+      "delta_J": {
+        "n": 80,
+        "mean": 0.00028673718606087083,
+        "ci90": [
+          -0.0005243593715219995,
+          0.0011796674931565305
+        ]
+      },
+      "equivalence_CI_containment": true,
+      "MO_carrier_FF_count": 10,
+      "MO_carrier_FF_per_episode_mean": 0.125,
+      "I_u_frac_mean": 0.071875
+    }
+  }
+}

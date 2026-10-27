@@ -1,0 +1,70 @@
+{
+  "schema": "analysis_c2_envelope_v2",
+  "primary_L4": "delta_J_integrated",
+  "bootstrap": "scenario_block_per_deadline",
+  "core_regime": "REG-PIPE-CPU",
+  "ff_estimand": "mean MO-carrier false-feasible step count per MO episode",
+  "envelope_table": {
+    "D_boundary": {
+      "n_scenarios": 40,
+      "L2_FF_total_events": 0,
+      "L2_FF_mean_per_MO_episode": 0.0,
+      "L2_FF_mean": 0.0,
+      "L3_I_u_frac": 0.07125000000000001,
+      "hold_mismatch_frac": 0.0,
+      "L4_delta_J_mean": -0.0007440053465263281,
+      "L4_delta_J_ci90": [
+        -0.0020601696876516714,
+        0.00021863748382541516
+      ],
+      "equivalence_CI_containment": true,
+      "ci_entirely_above_plus_delta_eq": false
+    },
+    "D_loose": {
+      "n_scenarios": 40,
+      "L2_FF_total_events": 2,
+      "L2_FF_mean_per_MO_episode": 0.05,
+      "L2_FF_mean": 0.05,
+      "L3_I_u_frac": 0.08208333333333333,
+      "hold_mismatch_frac": 0.0,
+      "L4_delta_J_mean": -6.144242690142854e-05,
+      "L4_delta_J_ci90": [
+        -0.0011546634112699268,
+        0.0009701738493562484
+      ],
+      "equivalence_CI_containment": true,
+      "ci_entirely_above_plus_delta_eq": false
+    },
+    "D_tight": {
+      "n_scenarios": 40,
+      "L2_FF_total_events": 37,
+      "L2_FF_mean_per_MO_episode": 0.925,
+      "L2_FF_mean": 0.925,
+      "L3_I_u_frac": 0.8108333333333333,
+      "hold_mismatch_frac": 0.017916666666666668,
+      "L4_delta_J_mean": 0.008183408729544121,
+      "L4_delta_J_ci90": [
+        0.0049795488015016215,
+        0.011528351240414495
+      ],
+      "equivalence_CI_containment": false,
+      "ci_entirely_above_plus_delta_eq": false
+    }
+  },
+  "n_blocks": 40,
+  "nom_sanity_D_boundary": {
+    "n_scenarios": 40,
+    "L2_FF_total_events": 1,
+    "L2_FF_mean_per_MO_episode": 0.025,
+    "L2_FF_mean": 0.025,
+    "L3_I_u_frac": 0.07125000000000001,
+    "hold_mismatch_frac": 0.0,
+    "L4_delta_J_mean": 0.0001603606701902866,
+    "L4_delta_J_ci90": [
+      -9.171202838212378e-06,
+      0.0004436659197687955
+    ],
+    "equivalence_CI_containment": true,
+    "ci_entirely_above_plus_delta_eq": false
+  }
+}

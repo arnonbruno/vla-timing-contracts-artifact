@@ -1,0 +1,1387 @@
+{
+  "schema": "tm_wsa_events_slim_v1",
+  "events": [
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331173302465,
+      "u_applied": [
+        -0.08300173225388119,
+        -0.3336916147917511
+      ],
+      "observation_id": 0,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50126442,
+      "sequence_id": 0
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331223339349,
+      "u_applied": [
+        -0.0723233933170324,
+        -0.3336916147917511
+      ],
+      "observation_id": 1,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50011186,
+      "sequence_id": 1
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331273383216,
+      "u_applied": [
+        -0.06146551942263665,
+        -0.31767573433351987
+      ],
+      "observation_id": 2,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50025653,
+      "sequence_id": 2
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331323477047,
+      "u_applied": [
+        -0.05041598745302557,
+        -0.30166859104527777
+      ],
+      "observation_id": 3,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50080806,
+      "sequence_id": 3
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331373572021,
+      "u_applied": [
+        -0.03921957816181396,
+        -0.28643242159728893
+      ],
+      "observation_id": 4,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50079064,
+      "sequence_id": 4
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331423629373,
+      "u_applied": [
+        -0.027908572070909007,
+        -0.2719519413683435
+      ],
+      "observation_id": 5,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50040501,
+      "sequence_id": 5
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331473695101,
+      "u_applied": [
+        -0.016507743439072003,
+        -0.25817813878482726
+      ],
+      "observation_id": 6,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50050099,
+      "sequence_id": 6
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331523795805,
+      "u_applied": [
+        -0.005037514752161823,
+        -0.24507030709915847
+      ],
+      "observation_id": 7,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50078813,
+      "sequence_id": 7
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331573890167,
+      "u_applied": [
+        0.006483441637290184,
+        -0.23259830034985
+      ],
+      "observation_id": 8,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50076859,
+      "sequence_id": 8
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331623953812,
+      "u_applied": [
+        0.018036070400703354,
+        -0.22074049344952265
+      ],
+      "observation_id": 9,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50038748,
+      "sequence_id": 9
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331674078220,
+      "u_applied": [
+        0.029599232416212623,
+        -0.20948061208274274
+      ],
+      "observation_id": 10,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50105954,
+      "sequence_id": 10
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331724148347,
+      "u_applied": [
+        0.04114839782677638,
+        -0.1988044598080183
+      ],
+      "observation_id": 11,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50040121,
+      "sequence_id": 11
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331774229524,
+      "u_applied": [
+        0.052654692446746636,
+        -0.1886970856793689
+      ],
+      "observation_id": 12,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50057493,
+      "sequence_id": 12
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331824289992,
+      "u_applied": [
+        0.0640842568099494,
+        -0.17914064701869395
+      ],
+      "observation_id": 13,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50039619,
+      "sequence_id": 13
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331874375257,
+      "u_applied": [
+        0.07539787841207543,
+        -0.17011303394511393
+      ],
+      "observation_id": 14,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50067091,
+      "sequence_id": 14
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331924430766,
+      "u_applied": [
+        0.08655085992962175,
+        -0.1615872087787155
+      ],
+      "observation_id": 15,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50036744,
+      "sequence_id": 15
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26331974504469,
+      "u_applied": [
+        0.09749308903310897,
+        -0.15353115379748336
+      ],
+      "observation_id": 16,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50057202,
+      "sequence_id": 16
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332024625091,
+      "u_applied": [
+        0.10676100097167482,
+        -0.14603222491477705
+      ],
+      "observation_id": 17,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50103660,
+      "sequence_id": 17
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332074675811,
+      "u_applied": [
+        0.1144051433258494,
+        -0.139113695135908
+      ],
+      "observation_id": 18,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50028058,
+      "sequence_id": 18
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332124743202,
+      "u_applied": [
+        0.12046687552606758,
+        -0.1327823153428067
+      ],
+      "observation_id": 19,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50043817,
+      "sequence_id": 19
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332174817086,
+      "u_applied": [
+        0.12497983133252788,
+        -0.1270264852767913
+      ],
+      "observation_id": 20,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50057152,
+      "sequence_id": 20
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332224899976,
+      "u_applied": [
+        0.1279703240590658,
+        -0.12181679162977108
+      ],
+      "observation_id": 21,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50065768,
+      "sequence_id": 21
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332274969712,
+      "u_applied": [
+        0.13087180645075586,
+        -0.11679535975803965
+      ],
+      "observation_id": 22,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50049107,
+      "sequence_id": 22
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332325026263,
+      "u_applied": [
+        0.1335871629574745,
+        -0.11186676451360293
+      ],
+      "observation_id": 23,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50039599,
+      "sequence_id": 23
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332375076602,
+      "u_applied": [
+        0.13602023727460025,
+        -0.10696937949195666
+      ],
+      "observation_id": 24,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 49751999,
+      "sequence_id": 24
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332425143984,
+      "u_applied": [
+        0.13807627425303517,
+        -0.1020641850795454
+      ],
+      "observation_id": 25,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50051572,
+      "sequence_id": 25
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332475217837,
+      "u_applied": [
+        0.13966357759733472,
+        -0.09712991213380118
+      ],
+      "observation_id": 26,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50058274,
+      "sequence_id": 26
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332525299325,
+      "u_applied": [
+        0.14069483425727633,
+        -0.09215902312663964
+      ],
+      "observation_id": 27,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50065548,
+      "sequence_id": 27
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332575361677,
+      "u_applied": [
+        0.14108816569598281,
+        -0.08715437041963571
+      ],
+      "observation_id": 28,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50044789,
+      "sequence_id": 28
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332625423909,
+      "u_applied": [
+        0.14076795610965148,
+        -0.08212652120223903
+      ],
+      "observation_id": 29,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50046362,
+      "sequence_id": 29
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332675480460,
+      "u_applied": [
+        0.13966550000625,
+        -0.07709167992537677
+      ],
+      "observation_id": 30,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50042675,
+      "sequence_id": 30
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332725583688,
+      "u_applied": [
+        0.1345699235763449,
+        -0.07303003112531421
+      ],
+      "observation_id": 31,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50083181,
+      "sequence_id": 31
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332775666729,
+      "u_applied": [
+        0.1256896334693346,
+        -0.06989192839465526
+      ],
+      "observation_id": 32,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50054467,
+      "sequence_id": 32
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332825749119,
+      "u_applied": [
+        0.11322869968641223,
+        -0.06758762019058082
+      ],
+      "observation_id": 33,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50065108,
+      "sequence_id": 33
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332875861555,
+      "u_applied": [
+        0.10052520437607344,
+        -0.06501000541228964
+      ],
+      "observation_id": 34,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50095334,
+      "sequence_id": 34
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332925946719,
+      "u_applied": [
+        0.08751494155003794,
+        -0.06212753829694488
+      ],
+      "observation_id": 35,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50066640,
+      "sequence_id": 35
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26332976020743,
+      "u_applied": [
+        0.07414513039327461,
+        -0.0589908684114258
+      ],
+      "observation_id": 36,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50053956,
+      "sequence_id": 36
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333026111178,
+      "u_applied": [
+        0.06037279046346827,
+        -0.05567684208689485
+      ],
+      "observation_id": 37,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50071650,
+      "sequence_id": 37
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333076189520,
+      "u_applied": [
+        0.0461661629227225,
+        -0.05227325625236805
+      ],
+      "observation_id": 38,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50059487,
+      "sequence_id": 38
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333126256260,
+      "u_applied": [
+        0.03150559956560087,
+        -0.04886875850846817
+      ],
+      "observation_id": 39,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50048436,
+      "sequence_id": 39
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333176320676,
+      "u_applied": [
+        0.016384031572424455,
+        -0.0455457705916098
+      ],
+      "observation_id": 40,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50042154,
+      "sequence_id": 40
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333226400200,
+      "u_applied": [
+        0.0008071098072064747,
+        -0.04237585785239668
+      ],
+      "observation_id": 41,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50057633,
+      "sequence_id": 41
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333276473081,
+      "u_applied": [
+        -0.01520690818732634,
+        -0.03941701666712811
+      ],
+      "observation_id": 42,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50056390,
+      "sequence_id": 42
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333326542246,
+      "u_applied": [
+        -0.03162746377564163,
+        -0.03671239453135122
+      ],
+      "observation_id": 43,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50047334,
+      "sequence_id": 43
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333376615068,
+      "u_applied": [
+        -0.048412147062157324,
+        -0.03429003161281665
+      ],
+      "observation_id": 44,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50052133,
+      "sequence_id": 44
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333426684553,
+      "u_applied": [
+        -0.06925291205984857,
+        -0.03243585617969726
+      ],
+      "observation_id": 45,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50052503,
+      "sequence_id": 45
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333476766732,
+      "u_applied": [
+        -0.09376308345748699,
+        -0.030889189048957277
+      ],
+      "observation_id": 46,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50065698,
+      "sequence_id": 46
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333526805510,
+      "u_applied": [
+        -0.12156634516361993,
+        -0.029426168304657805
+      ],
+      "observation_id": 47,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50019201,
+      "sequence_id": 47
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333576905192,
+      "u_applied": [
+        -0.14855632269746658,
+        -0.02788932450018251
+      ],
+      "observation_id": 48,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50084363,
+      "sequence_id": 48
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333626976280,
+      "u_applied": [
+        -0.17469034456216848,
+        -0.026287861067179372
+      ],
+      "observation_id": 49,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50053104,
+      "sequence_id": 49
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333677069350,
+      "u_applied": [
+        -0.1999147530681215,
+        -0.024639508465075455
+      ],
+      "observation_id": 50,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50075096,
+      "sequence_id": 50
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333727120170,
+      "u_applied": [
+        -0.2241674316289695,
+        -0.022958497906542783
+      ],
+      "observation_id": 51,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50033047,
+      "sequence_id": 51
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333777185006,
+      "u_applied": [
+        -0.2473768865300405,
+        -0.02124641631274571
+      ],
+      "observation_id": 52,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50049107,
+      "sequence_id": 52
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333827253300,
+      "u_applied": [
+        -0.26946202075722037,
+        -0.019487556602652133
+      ],
+      "observation_id": 53,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50054087,
+      "sequence_id": 53
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333877317575,
+      "u_applied": [
+        -0.2903324746931845,
+        -0.017647996488637307
+      ],
+      "observation_id": 54,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50049718,
+      "sequence_id": 54
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333927372673,
+      "u_applied": [
+        -0.30988943109808675,
+        -0.01567744626858847
+      ],
+      "observation_id": 55,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50041362,
+      "sequence_id": 55
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26333977444403,
+      "u_applied": [
+        -0.32802679539938545,
+        -0.013512963646320663
+      ],
+      "observation_id": 56,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50055599,
+      "sequence_id": 56
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26334027504460,
+      "u_applied": [
+        -0.34463267260435787,
+        -0.011083767485664352
+      ],
+      "observation_id": 57,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50047063,
+      "sequence_id": 57
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26334077592501,
+      "u_applied": [
+        -0.3595910699426635,
+        -0.00831653466243658
+      ],
+      "observation_id": 58,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50069776,
+      "sequence_id": 58
+    },
+    {
+      "event": "COMMAND_APPLIED",
+      "t_apply_ns": 26334127614226,
+      "u_applied": [
+        -0.37278376042997813,
+        -0.005140706599640765
+      ],
+      "observation_id": 59,
+      "exit_id": 3,
+      "outcome": "admit",
+      "arm": "actuator_ready",
+      "A_k_ns": 50006667,
+      "sequence_id": 59
+    }
+  ],
+  "plant_steps": [
+    {
+      "plant_k": 0,
+      "t_advance_ns": 26331123125939,
+      "u_active": [
+        0.0,
+        0.0
+      ],
+      "action_source": "fallback_init"
+    },
+    {
+      "plant_k": 1,
+      "t_advance_ns": 26331173205333,
+      "u_active": [
+        0.0,
+        0.0
+      ],
+      "action_source": "fallback_init"
+    },
+    {
+      "plant_k": 2,
+      "t_advance_ns": 26331223265741,
+      "u_active": [
+        -0.08300173225388119,
+        -0.3336916147917511
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 3,
+      "t_advance_ns": 26331273325087,
+      "u_active": [
+        -0.0723233933170324,
+        -0.3336916147917511
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 4,
+      "t_advance_ns": 26331323400644,
+      "u_active": [
+        -0.06146551942263665,
+        -0.31767573433351987
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 5,
+      "t_advance_ns": 26331373477333,
+      "u_active": [
+        -0.05041598745302557,
+        -0.30166859104527777
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 6,
+      "t_advance_ns": 26331423549182,
+      "u_active": [
+        -0.03921957816181396,
+        -0.28643242159728893
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 7,
+      "t_advance_ns": 26331473621974,
+      "u_active": [
+        -0.027908572070909007,
+        -0.2719519413683435
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 8,
+      "t_advance_ns": 26331523703091,
+      "u_active": [
+        -0.016507743439072003,
+        -0.25817813878482726
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 9,
+      "t_advance_ns": 26331573754883,
+      "u_active": [
+        -0.005037514752161823,
+        -0.24507030709915847
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 10,
+      "t_advance_ns": 26331623839457,
+      "u_active": [
+        0.006483441637290184,
+        -0.23259830034985
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 11,
+      "t_advance_ns": 26331673936734,
+      "u_active": [
+        0.018036070400703354,
+        -0.22074049344952265
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 12,
+      "t_advance_ns": 26331724023893,
+      "u_active": [
+        0.029599232416212623,
+        -0.20948061208274274
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 13,
+      "t_advance_ns": 26331774107354,
+      "u_active": [
+        0.04114839782677638,
+        -0.1988044598080183
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 14,
+      "t_advance_ns": 26331824188161,
+      "u_active": [
+        0.052654692446746636,
+        -0.1886970856793689
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 15,
+      "t_advance_ns": 26331874271743,
+      "u_active": [
+        0.0640842568099494,
+        -0.17914064701869395
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 16,
+      "t_advance_ns": 26331924344765,
+      "u_active": [
+        0.07539787841207543,
+        -0.17011303394511393
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 17,
+      "t_advance_ns": 26331974416654,
+      "u_active": [
+        0.08655085992962175,
+        -0.1615872087787155
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 18,
+      "t_advance_ns": 26332024504504,
+      "u_active": [
+        0.09749308903310897,
+        -0.15353115379748336
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 19,
+      "t_advance_ns": 26332074575653,
+      "u_active": [
+        0.10676100097167482,
+        -0.14603222491477705
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 20,
+      "t_advance_ns": 26332124646571,
+      "u_active": [
+        0.1144051433258494,
+        -0.139113695135908
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 21,
+      "t_advance_ns": 26332174721476,
+      "u_active": [
+        0.12046687552606758,
+        -0.1327823153428067
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 22,
+      "t_advance_ns": 26332224796221,
+      "u_active": [
+        0.12497983133252788,
+        -0.1270264852767913
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 23,
+      "t_advance_ns": 26332274867430,
+      "u_active": [
+        0.1279703240590658,
+        -0.12181679162977108
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 24,
+      "t_advance_ns": 26332324935963,
+      "u_active": [
+        0.13087180645075586,
+        -0.11679535975803965
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 25,
+      "t_advance_ns": 26332375001621,
+      "u_active": [
+        0.1335871629574745,
+        -0.11186676451360293
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 26,
+      "t_advance_ns": 26332425069303,
+      "u_active": [
+        0.13602023727460025,
+        -0.10696937949195666
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 27,
+      "t_advance_ns": 26332475136174,
+      "u_active": [
+        0.13807627425303517,
+        -0.1020641850795454
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 28,
+      "t_advance_ns": 26332525214275,
+      "u_active": [
+        0.13966357759733472,
+        -0.09712991213380118
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 29,
+      "t_advance_ns": 26332575286796,
+      "u_active": [
+        0.14069483425727633,
+        -0.09215902312663964
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 30,
+      "t_advance_ns": 26332625358826,
+      "u_active": [
+        0.14108816569598281,
+        -0.08715437041963571
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 31,
+      "t_advance_ns": 26332675420607,
+      "u_active": [
+        0.14076795610965148,
+        -0.08212652120223903
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 32,
+      "t_advance_ns": 26332725496665,
+      "u_active": [
+        0.13966550000625,
+        -0.07709167992537677
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 33,
+      "t_advance_ns": 26332775570939,
+      "u_active": [
+        0.1345699235763449,
+        -0.07303003112531421
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 34,
+      "t_advance_ns": 26332825648319,
+      "u_active": [
+        0.1256896334693346,
+        -0.06989192839465526
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 35,
+      "t_advance_ns": 26332875747360,
+      "u_active": [
+        0.11322869968641223,
+        -0.06758762019058082
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 36,
+      "t_advance_ns": 26332925833166,
+      "u_active": [
+        0.10052520437607344,
+        -0.06501000541228964
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 37,
+      "t_advance_ns": 26332975914363,
+      "u_active": [
+        0.08751494155003794,
+        -0.06212753829694488
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 38,
+      "t_advance_ns": 26333025999388,
+      "u_active": [
+        0.07414513039327461,
+        -0.0589908684114258
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 39,
+      "t_advance_ns": 26333076082489,
+      "u_active": [
+        0.06037279046346827,
+        -0.05567684208689485
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 40,
+      "t_advance_ns": 26333126154469,
+      "u_active": [
+        0.0461661629227225,
+        -0.05227325625236805
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 41,
+      "t_advance_ns": 26333176228753,
+      "u_active": [
+        0.03150559956560087,
+        -0.04886875850846817
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 42,
+      "t_advance_ns": 26333226308908,
+      "u_active": [
+        0.016384031572424455,
+        -0.0455457705916098
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 43,
+      "t_advance_ns": 26333276383082,
+      "u_active": [
+        0.0008071098072064747,
+        -0.04237585785239668
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 44,
+      "t_advance_ns": 26333326456886,
+      "u_active": [
+        -0.01520690818732634,
+        -0.03941701666712811
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 45,
+      "t_advance_ns": 26333376527874,
+      "u_active": [
+        -0.03162746377564163,
+        -0.03671239453135122
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 46,
+      "t_advance_ns": 26333426602609,
+      "u_active": [
+        -0.048412147062157324,
+        -0.03429003161281665
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 47,
+      "t_advance_ns": 26333476672295,
+      "u_active": [
+        -0.06925291205984857,
+        -0.03243585617969726
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 48,
+      "t_advance_ns": 26333526724187,
+      "u_active": [
+        -0.09376308345748699,
+        -0.030889189048957277
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 49,
+      "t_advance_ns": 26333576804843,
+      "u_active": [
+        -0.12156634516361993,
+        -0.029426168304657805
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 50,
+      "t_advance_ns": 26333626881662,
+      "u_active": [
+        -0.14855632269746658,
+        -0.02788932450018251
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 51,
+      "t_advance_ns": 26333676962268,
+      "u_active": [
+        -0.17469034456216848,
+        -0.026287861067179372
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 52,
+      "t_advance_ns": 26333727031924,
+      "u_active": [
+        -0.1999147530681215,
+        -0.024639508465075455
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 53,
+      "t_advance_ns": 26333777101660,
+      "u_active": [
+        -0.2241674316289695,
+        -0.022958497906542783
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 54,
+      "t_advance_ns": 26333827171726,
+      "u_active": [
+        -0.2473768865300405,
+        -0.02124641631274571
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 55,
+      "t_advance_ns": 26333877238116,
+      "u_active": [
+        -0.26946202075722037,
+        -0.019487556602652133
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 56,
+      "t_advance_ns": 26333927303133,
+      "u_active": [
+        -0.2903324746931845,
+        -0.017647996488637307
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 57,
+      "t_advance_ns": 26333977371315,
+      "u_active": [
+        -0.30988943109808675,
+        -0.01567744626858847
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 58,
+      "t_advance_ns": 26334027435972,
+      "u_active": [
+        -0.32802679539938545,
+        -0.013512963646320663
+      ],
+      "action_source": "admitted"
+    },
+    {
+      "plant_k": 59,
+      "t_advance_ns": 26334077513542,
+      "u_active": [
+        -0.34463267260435787,
+        -0.011083767485664352
+      ],
+      "action_source": "admitted"
+    }
+  ]
+}

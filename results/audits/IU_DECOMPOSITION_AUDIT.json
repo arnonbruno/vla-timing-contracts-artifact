@@ -1,0 +1,66 @@
+{
+  "schema": "analysis_iu_decomposition_v1",
+  "definition": {
+    "hold": "one arm last-sourced by admit and the other not",
+    "timing": "both admit-sourced but different observation_id (command generation)",
+    "exit": "same observation_id, both admit, different admitted exit_id",
+    "action_same_exit": "same observation_id and exit_id, vectors still differ",
+    "other": "residual"
+  },
+  "by_deadline": {
+    "D_boundary": {
+      "I_u": 342,
+      "hold": 4,
+      "timing": 83,
+      "exit": 0,
+      "action_same_exit": 255,
+      "other": 0,
+      "n_steps": 4800,
+      "n_pairs": 80,
+      "frac_I_u": 0.07125,
+      "among_I_u": {
+        "hold": 0.011695906432748537,
+        "timing": 0.24269005847953215,
+        "exit": 0.0,
+        "action_same_exit": 0.7456140350877193,
+        "other": 0.0
+      }
+    },
+    "D_loose": {
+      "I_u": 197,
+      "hold": 2,
+      "timing": 34,
+      "exit": 0,
+      "action_same_exit": 161,
+      "other": 0,
+      "n_steps": 2400,
+      "n_pairs": 40,
+      "frac_I_u": 0.08208333333333333,
+      "among_I_u": {
+        "hold": 0.01015228426395939,
+        "timing": 0.17258883248730963,
+        "exit": 0.0,
+        "action_same_exit": 0.817258883248731,
+        "other": 0.0
+      }
+    },
+    "D_tight": {
+      "I_u": 1946,
+      "hold": 34,
+      "timing": 78,
+      "exit": 1,
+      "action_same_exit": 1833,
+      "other": 0,
+      "n_steps": 2400,
+      "n_pairs": 40,
+      "frac_I_u": 0.8108333333333333,
+      "among_I_u": {
+        "hold": 0.017471736896197326,
+        "timing": 0.040082219938335044,
+        "exit": 0.0005138746145940391,
+        "action_same_exit": 0.9419321685508736,
+        "other": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,1124 @@
+{
+  "schema": "tm_g6_analysis_v1",
+  "correction": {
+    "ref": "OP-TM-G6-RFLIP-REVIEW-001",
+    "r_flip_scope": "dedicated_4x80_actuator_ready_measurement_only",
+    "pooled_all_arm_defect": "removed",
+    "H_RA3_SC2": "BLOCKED_paired_unsupported_unpaired_exploratory_only"
+  },
+  "deadline_ns": 150000000,
+  "n_joined_rows": 8960,
+  "n_session_reports": 140,
+  "R_flip_by_config_workload": {
+    "CFG-COMPUTE|W_CTRL": {
+      "n_sessions": 4,
+      "n_cycles": 43,
+      "n_flips": 31,
+      "scope": "dedicated_actuator_ready_80cycle_measurement",
+      "session_rates": [
+        0.7272727272727273,
+        0.7272727272727273,
+        0.7,
+        0.7272727272727273
+      ],
+      "R_flip_session_mean": 0.7204545454545455,
+      "R_flip_session_ci90": [
+        0.7068181818181818,
+        0.7272727272727273
+      ],
+      "R_flip_cycle_mean": 0.7209302325581395,
+      "R_flip_cycle_ci90": [
+        0.6046511627906976,
+        0.8372093023255814
+      ],
+      "phi_E": {
+        "n": 43,
+        "phi_p50": 0.40042365604060404,
+        "phi_p95": 0.6013533702020492,
+        "phi_p99": 0.6034219433185275,
+        "E_t_p50": 1.0023364459466109,
+        "E_t_p95": 1.0077110588527811,
+        "E_t_p99": 1.008951840685198,
+        "L_act_over_L_model_p50": 2.4973549512234547,
+        "L_act_over_L_model_p95": 2.5064445154833788,
+        "L_act_over_L_model_p99": 2.5084098894956517
+      },
+      "regime": "pipeline_deadline_bound",
+      "session_R_flip_ci_lo_gt_0": true
+    },
+    "CFG-COMPUTE|W_GPU": {
+      "n_sessions": 0,
+      "n_cycles": 0,
+      "n_flips": 0,
+      "scope": "dedicated_actuator_ready_80cycle_measurement",
+      "session_rates": [],
+      "R_flip_session_mean": null,
+      "R_flip_session_ci90": [
+        null,
+        null
+      ],
+      "R_flip_cycle_mean": null,
+      "R_flip_cycle_ci90": [
+        null,
+        null
+      ],
+      "phi_E": {
+        "n": 0,
+        "phi_p50": null,
+        "phi_p95": null,
+        "phi_p99": null,
+        "E_t_p50": null,
+        "E_t_p95": null,
+        "E_t_p99": null,
+        "L_act_over_L_model_p50": null,
+        "L_act_over_L_model_p95": null,
+        "L_act_over_L_model_p99": null
+      },
+      "regime": "mixed",
+      "session_R_flip_ci_lo_gt_0": false
+    },
+    "CFG-PIPE-CPU|W_CTRL": {
+      "n_sessions": 4,
+      "n_cycles": 320,
+      "n_flips": 0,
+      "scope": "dedicated_actuator_ready_80cycle_measurement",
+      "session_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "R_flip_session_mean": 0.0,
+      "R_flip_session_ci90": [
+        0.0,
+        0.0
+      ],
+      "R_flip_cycle_mean": 0.0,
+      "R_flip_cycle_ci90": [
+        0.0,
+        0.0
+      ],
+      "phi_E": {
+        "n": 320,
+        "phi_p50": 0.03307079287708678,
+        "phi_p95": 0.034170430520207073,
+        "phi_p99": 0.034577157045147786,
+        "E_t_p50": 0.32623717953244136,
+        "E_t_p95": 0.33086798666211453,
+        "E_t_p99": 0.6666092312077457,
+        "L_act_over_L_model_p50": 30.238162240198548,
+        "L_act_over_L_model_p95": 31.148649431571883,
+        "L_act_over_L_model_p99": 59.65902107442351
+      },
+      "regime": "pipeline_deadline_bound",
+      "session_R_flip_ci_lo_gt_0": false
+    },
+    "CFG-PIPE-CPU|W_GPU": {
+      "n_sessions": 4,
+      "n_cycles": 103,
+      "n_flips": 5,
+      "scope": "dedicated_actuator_ready_80cycle_measurement",
+      "session_rates": [
+        0.04,
+        0.038461538461538464,
+        0.038461538461538464,
+        0.07692307692307693
+      ],
+      "R_flip_session_mean": 0.048461538461538466,
+      "R_flip_session_ci90": [
+        0.038461538461538464,
+        0.06730769230769232
+      ],
+      "R_flip_cycle_mean": 0.04854368932038835,
+      "R_flip_cycle_ci90": [
+        0.019417475728155338,
+        0.08737864077669903
+      ],
+      "phi_E": {
+        "n": 103,
+        "phi_p50": 0.38405841913392036,
+        "phi_p95": 0.3878630357421601,
+        "phi_p99": 0.3910881483098957,
+        "E_t_p50": 0.23570593649947566,
+        "E_t_p95": 0.6251957297203232,
+        "E_t_p99": 1.0025656115531054,
+        "L_act_over_L_model_p50": 2.6037705468222065,
+        "L_act_over_L_model_p95": 5.25351956264587,
+        "L_act_over_L_model_p99": 7.829959098480181
+      },
+      "regime": "pipeline_deadline_bound",
+      "session_R_flip_ci_lo_gt_0": true
+    },
+    "CFG-PIPE-NOM|W_CTRL": {
+      "n_sessions": 4,
+      "n_cycles": 316,
+      "n_flips": 0,
+      "scope": "dedicated_actuator_ready_80cycle_measurement",
+      "session_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "R_flip_session_mean": 0.0,
+      "R_flip_session_ci90": [
+        0.0,
+        0.0
+      ],
+      "R_flip_cycle_mean": 0.0,
+      "R_flip_cycle_ci90": [
+        0.0,
+        0.0
+      ],
+      "phi_E": {
+        "n": 316,
+        "phi_p50": 0.0329346436568497,
+        "phi_p95": 0.03417743795118315,
+        "phi_p99": 0.03500203146945585,
+        "E_t_p50": 0.326240032395259,
+        "E_t_p95": 0.327247272913834,
+        "E_t_p99": 0.330804411387904,
+        "L_act_over_L_model_p50": 30.363164588344212,
+        "L_act_over_L_model_p95": 31.02472494195029,
+        "L_act_over_L_model_p99": 31.254425655606667
+      },
+      "regime": "pipeline_deadline_bound",
+      "session_R_flip_ci_lo_gt_0": false
+    },
+    "CFG-PIPE-NOM|W_GPU": {
+      "n_sessions": 4,
+      "n_cycles": 104,
+      "n_flips": 5,
+      "scope": "dedicated_actuator_ready_80cycle_measurement",
+      "session_rates": [
+        0.07692307692307693,
+        0.038461538461538464,
+        0.038461538461538464,
+        0.038461538461538464
+      ],
+      "R_flip_session_mean": 0.04807692307692308,
+      "R_flip_session_ci90": [
+        0.038461538461538464,
+        0.057692307692307696
+      ],
+      "R_flip_cycle_mean": 0.04807692307692308,
+      "R_flip_cycle_ci90": [
+        0.019230769230769232,
+        0.08653846153846154
+      ],
+      "phi_E": {
+        "n": 104,
+        "phi_p50": 0.3841551713095185,
+        "phi_p95": 0.3874486043112688,
+        "phi_p99": 0.3887294096528842,
+        "E_t_p50": 0.23568592788763348,
+        "E_t_p95": 0.6196866349763883,
+        "E_t_p99": 1.0021270769067987,
+        "L_act_over_L_model_p50": 2.603114769462767,
+        "L_act_over_L_model_p95": 5.229079438933487,
+        "L_act_over_L_model_p99": 7.817673438840836
+      },
+      "regime": "pipeline_deadline_bound",
+      "session_R_flip_ci_lo_gt_0": true
+    }
+  },
+  "H_RA1": {
+    "W_CTRL": {
+      "agreement_rate": 0.27954545454545454,
+      "R_flip_ci90": [
+        0.7068181818181818,
+        0.7272727272727273
+      ],
+      "L_act_over_L_model_p50": 2.4973549512234547,
+      "pass_strict": false,
+      "regime": "pipeline_deadline_bound"
+    },
+    "W_GPU": {
+      "agreement_rate": null,
+      "R_flip_ci90": [
+        null,
+        null
+      ],
+      "L_act_over_L_model_p50": null,
+      "pass_strict": false,
+      "regime": "mixed"
+    }
+  },
+  "H_RA2_pipeline_configs_ci_lo_gt_0": [
+    "CFG-PIPE-CPU",
+    "CFG-PIPE-NOM"
+  ],
+  "H_RA3_consequence_hits": [],
+  "H_RA3_unpaired_exploratory": [
+    {
+      "config": "CFG-PIPE-NOM",
+      "workload": "W_GPU",
+      "metric": "deadline_miss_rate",
+      "ci90": [
+        0.8833333333333333,
+        0.9166666666666666
+      ],
+      "evidence_class": "unpaired_exploratory_only"
+    },
+    {
+      "config": "CFG-PIPE-CPU",
+      "workload": "W_CTRL",
+      "metric": "mean_age_proxy",
+      "ci90": [
+        13217.0,
+        241408.33333333334
+      ],
+      "evidence_class": "unpaired_exploratory_only"
+    },
+    {
+      "config": "CFG-PIPE-CPU",
+      "workload": "W_GPU",
+      "metric": "deadline_miss_rate",
+      "ci90": [
+        0.8833333333333333,
+        0.8833333333333333
+      ],
+      "evidence_class": "unpaired_exploratory_only"
+    }
+  ],
+  "H_RA3_pairing_audit": {
+    "CFG-PIPE-NOM|W_CTRL": {
+      "mo_seeds": [
+        65870,
+        66167,
+        69801
+      ],
+      "ar_seeds": [
+        62269,
+        68635,
+        70694
+      ],
+      "shared_seeds": [],
+      "mo_episode_ids": [
+        28,
+        29,
+        30
+      ],
+      "ar_episode_ids": [
+        34,
+        35,
+        36
+      ],
+      "shared_episode_ids": [],
+      "paired_same_seed_supported": false
+    },
+    "CFG-PIPE-NOM|W_GPU": {
+      "mo_seeds": [
+        63118,
+        69187,
+        69484
+      ],
+      "ar_seeds": [
+        66335,
+        69969,
+        70266
+      ],
+      "shared_seeds": [],
+      "mo_episode_ids": [
+        49,
+        50,
+        51
+      ],
+      "ar_episode_ids": [
+        55,
+        56,
+        57
+      ],
+      "shared_episode_ids": [],
+      "paired_same_seed_supported": false
+    },
+    "CFG-PIPE-CPU|W_CTRL": {
+      "mo_seeds": [
+        65082,
+        67141,
+        68716
+      ],
+      "ar_seeds": [
+        62505,
+        64080,
+        70446
+      ],
+      "shared_seeds": [],
+      "mo_episode_ids": [
+        1008,
+        1009,
+        1010
+      ],
+      "ar_episode_ids": [
+        1014,
+        1015,
+        1016
+      ],
+      "shared_episode_ids": [],
+      "paired_same_seed_supported": false
+    },
+    "CFG-PIPE-CPU|W_GPU": {
+      "mo_seeds": [
+        61945,
+        64823,
+        70370
+      ],
+      "ar_seeds": [
+        62819,
+        64394,
+        67585
+      ],
+      "shared_seeds": [],
+      "mo_episode_ids": [
+        1029,
+        1030,
+        1031
+      ],
+      "ar_episode_ids": [
+        1035,
+        1036,
+        1037
+      ],
+      "shared_episode_ids": [],
+      "paired_same_seed_supported": false
+    }
+  },
+  "closed_loop_contrasts": {
+    "CFG-PIPE-NOM|W_CTRL": {
+      "pairing": {
+        "mo_seeds": [
+          65870,
+          66167,
+          69801
+        ],
+        "ar_seeds": [
+          62269,
+          68635,
+          70694
+        ],
+        "shared_seeds": [],
+        "mo_episode_ids": [
+          28,
+          29,
+          30
+        ],
+        "ar_episode_ids": [
+          34,
+          35,
+          36
+        ],
+        "shared_episode_ids": [],
+        "paired_same_seed_supported": false
+      },
+      "evidence_class": "unpaired_exploratory_only",
+      "mean_age_proxy": {
+        "n": 3,
+        "mean_diff": -67339.0,
+        "ci90": [
+          -201904.66666666666,
+          67226.66666666667
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 50734616.666666664,
+        "ar_mean": 50801955.666666664,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "deadline_miss_rate": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "tracking_cost": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.008260561974296175,
+        "ar_mean": 0.008260561974296175,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "min_track_margin_m": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 1.1952585156965727,
+        "ar_mean": 1.1952585156965727,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "fallback_freq": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "control_discontinuities": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "completion": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 1.0,
+        "ar_mean": 1.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      }
+    },
+    "CFG-PIPE-NOM|W_GPU": {
+      "pairing": {
+        "mo_seeds": [
+          63118,
+          69187,
+          69484
+        ],
+        "ar_seeds": [
+          66335,
+          69969,
+          70266
+        ],
+        "shared_seeds": [],
+        "mo_episode_ids": [
+          49,
+          50,
+          51
+        ],
+        "ar_episode_ids": [
+          55,
+          56,
+          57
+        ],
+        "shared_episode_ids": [],
+        "paired_same_seed_supported": false
+      },
+      "evidence_class": "unpaired_exploratory_only",
+      "mean_age_proxy": {
+        "n": 3,
+        "mean_diff": -489235.0,
+        "ci90": [
+          -766895.3333333334,
+          -211574.66666666666
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 100094833.0,
+        "ar_mean": 100584068.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "deadline_miss_rate": {
+        "n": 3,
+        "mean_diff": 0.8999999999999999,
+        "ci90": [
+          0.8833333333333333,
+          0.9166666666666666
+        ],
+        "ci_lo_gt_0": true,
+        "mo_mean": 0.9166666666666666,
+        "ar_mean": 0.016666666666666666,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "tracking_cost": {
+        "n": 3,
+        "mean_diff": -9.31573929835091e-06,
+        "ci90": [
+          -2.4189920454501374e-05,
+          5.558441857799556e-06
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 1.4874181156150465e-05,
+        "ar_mean": 2.4189920454501374e-05,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "min_track_margin_m": {
+        "n": 3,
+        "mean_diff": -1.0545032217053791e-06,
+        "ci90": [
+          -1.0588491214417553e-05,
+          8.479484771006796e-06
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 1.1999904660120073,
+        "ar_mean": 1.1999894115087855,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "fallback_freq": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "control_discontinuities": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "completion": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 1.0,
+        "ar_mean": 1.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      }
+    },
+    "CFG-PIPE-CPU|W_CTRL": {
+      "pairing": {
+        "mo_seeds": [
+          65082,
+          67141,
+          68716
+        ],
+        "ar_seeds": [
+          62505,
+          64080,
+          70446
+        ],
+        "shared_seeds": [],
+        "mo_episode_ids": [
+          1008,
+          1009,
+          1010
+        ],
+        "ar_episode_ids": [
+          1014,
+          1015,
+          1016
+        ],
+        "shared_episode_ids": [],
+        "paired_same_seed_supported": false
+      },
+      "evidence_class": "unpaired_exploratory_only",
+      "mean_age_proxy": {
+        "n": 3,
+        "mean_diff": 127312.66666666667,
+        "ci90": [
+          13217.0,
+          241408.33333333334
+        ],
+        "ci_lo_gt_0": true,
+        "mo_mean": 50652791.0,
+        "ar_mean": 50525478.333333336,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "deadline_miss_rate": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "tracking_cost": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.008260561974296175,
+        "ar_mean": 0.008260561974296175,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "min_track_margin_m": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 1.1952585156965727,
+        "ar_mean": 1.1952585156965727,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "fallback_freq": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "control_discontinuities": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "completion": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 1.0,
+        "ar_mean": 1.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      }
+    },
+    "CFG-PIPE-CPU|W_GPU": {
+      "pairing": {
+        "mo_seeds": [
+          61945,
+          64823,
+          70370
+        ],
+        "ar_seeds": [
+          62819,
+          64394,
+          67585
+        ],
+        "shared_seeds": [],
+        "mo_episode_ids": [
+          1029,
+          1030,
+          1031
+        ],
+        "ar_episode_ids": [
+          1035,
+          1036,
+          1037
+        ],
+        "shared_episode_ids": [],
+        "paired_same_seed_supported": false
+      },
+      "evidence_class": "unpaired_exploratory_only",
+      "mean_age_proxy": {
+        "n": 3,
+        "mean_diff": -275104.3333333333,
+        "ci90": [
+          -699837.0,
+          149628.33333333334
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 100317784.0,
+        "ar_mean": 100592888.33333333,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "deadline_miss_rate": {
+        "n": 3,
+        "mean_diff": 0.8833333333333333,
+        "ci90": [
+          0.8833333333333333,
+          0.8833333333333333
+        ],
+        "ci_lo_gt_0": true,
+        "mo_mean": 0.9,
+        "ar_mean": 0.016666666666666666,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "tracking_cost": {
+        "n": 3,
+        "mean_diff": 4.9335889114026775e-06,
+        "ci90": [
+          0.0,
+          9.867177822805355e-06
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 2.9123509365904052e-05,
+        "ar_mean": 2.4189920454501374e-05,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "min_track_margin_m": {
+        "n": 3,
+        "mean_diff": 3.1868273500842057e-06,
+        "ci90": [
+          0.0,
+          6.373654700168411e-06
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 1.1999862246814355,
+        "ar_mean": 1.1999894115087855,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "fallback_freq": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "control_discontinuities": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 0.0,
+        "ar_mean": 0.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      },
+      "completion": {
+        "n": 3,
+        "mean_diff": 0.0,
+        "ci90": [
+          0.0,
+          0.0
+        ],
+        "ci_lo_gt_0": false,
+        "mo_mean": 1.0,
+        "ar_mean": 1.0,
+        "pairing_status": "UNPAIRED_EXPLORATORY",
+        "note": "different seeds/episode_ids; not prereg paired claim"
+      }
+    }
+  },
+  "heldout_separator": {
+    "accuracy": 0.5,
+    "n": 4,
+    "rows": [
+      {
+        "config_id": "CFG-PIPE-NOM",
+        "run_id": "g6-20260803T233452Z-024",
+        "phi_p50": 0.032698441323018954,
+        "E_t_p50": 0.3263646826952119,
+        "pred_pipeline": true,
+        "correct": true
+      },
+      {
+        "config_id": "CFG-PIPE-NOM",
+        "run_id": "g6-20260803T233452Z-025",
+        "phi_p50": 0.03312239439626649,
+        "E_t_p50": 0.3262258106250365,
+        "pred_pipeline": true,
+        "correct": true
+      },
+      {
+        "config_id": "CFG-COMPUTE",
+        "run_id": "g6-20260803T233452Z-026",
+        "phi_p50": 0.4003769208502887,
+        "E_t_p50": 1.0022982321671845,
+        "pred_pipeline": true,
+        "correct": false
+      },
+      {
+        "config_id": "CFG-COMPUTE",
+        "run_id": "g6-20260803T233452Z-027",
+        "phi_p50": 0.4003935036081287,
+        "E_t_p50": 1.0024344505643132,
+        "pred_pipeline": true,
+        "correct": false
+      }
+    ]
+  },
+  "sample_joined_record": {
+    "A_k_authoritative": true,
+    "A_k_ns": 50091133,
+    "E_t": 0.3262829106960979,
+    "I_t": 0,
+    "L_act_ns": 50091133,
+    "L_admission_ns": 25945,
+    "L_model_authoritative": true,
+    "L_model_ns": 1705013,
+    "L_post_ns": 1550,
+    "L_pre_ns": 9334,
+    "L_queue_ns": 3889,
+    "L_transport_down_ns": 15000000,
+    "L_transport_label": "frozen_one_way_budget_not_unsync_delta",
+    "L_transport_up_ns": 15000000,
+    "L_wsa_capture_tx_ns": 5010,
+    "L_wsa_rx_apply_ns": 31690,
+    "arm": "actuator_ready",
+    "complete_joined": true,
+    "config_id": "CFG-PIPE-NOM",
+    "cross_device_primary_used": false,
+    "deadline_ns": 150000000,
+    "device_ids": {
+      "pi_admission": "PI",
+      "pi_preprocess": "PI",
+      "pi_queue": "PI",
+      "wsa_A_k": "WSA",
+      "wsa_capture_tx": "WSA",
+      "wsa_rx_apply": "WSA",
+      "wsb_model": "WSB",
+      "wsb_post": "WSB"
+    },
+    "episode_id": 0,
+    "exit_id": 3,
+    "heldout": false,
+    "observation_id": 0,
+    "phi": 0.03403821989812049,
+    "residual_unattributed_ns": 18308702,
+    "run_id": "g6-20260803T233452Z-000",
+    "schema": "tm_g6_joined_atomic_trace_v1",
+    "seed": 62000,
+    "stages": {
+      "pi_admission": {
+        "device_id": "PI",
+        "duration_ns": 25945,
+        "exit_id": 3,
+        "extra": {
+          "age_est_ns": 38804233,
+          "arm": "actuator_ready",
+          "outcome": "admit"
+        },
+        "t_end_local_ns": 424418231576397,
+        "t_start_local_ns": 424418231550452
+      },
+      "pi_preprocess": {
+        "device_id": "PI",
+        "duration_ns": 9334,
+        "exit_id": null,
+        "extra": {},
+        "t_end_local_ns": 424418222894601,
+        "t_start_local_ns": 424418222885267
+      },
+      "pi_queue": {
+        "device_id": "PI",
+        "duration_ns": 3889,
+        "exit_id": null,
+        "extra": {},
+        "t_end_local_ns": 424418222904990,
+        "t_start_local_ns": 424418222901101
+      },
+      "wsa_A_k": {
+        "device_id": "WSA",
+        "duration_ns": 50091133,
+        "exit_id": 3,
+        "extra": {
+          "A_k_ns": 50091133,
+          "L_model_ns": 1705013,
+          "L_policy_ns": 1706233,
+          "admitted": true
+        },
+        "t_end_local_ns": 474157941979437,
+        "t_start_local_ns": 474157891888304
+      },
+      "wsa_capture_tx": {
+        "device_id": "WSA",
+        "duration_ns": 5010,
+        "exit_id": null,
+        "extra": {},
+        "t_end_local_ns": 474157891893314,
+        "t_start_local_ns": 474157891888304
+      },
+      "wsa_rx_apply": {
+        "device_id": "WSA",
+        "duration_ns": 31690,
+        "exit_id": 3,
+        "extra": {},
+        "t_end_local_ns": 474157941979437,
+        "t_start_local_ns": 474157941947747
+      },
+      "wsb_model": {
+        "device_id": "WSB",
+        "duration_ns": 1705013,
+        "exit_id": 3,
+        "extra": {
+          "cumulative_exit": 3,
+          "pad_kind": "cpu_busy",
+          "slice_ns": 801642
+        },
+        "t_end_local_ns": 474157901625079,
+        "t_start_local_ns": 474157899920066
+      },
+      "wsb_post": {
+        "device_id": "WSB",
+        "duration_ns": 1550,
+        "exit_id": 1,
+        "extra": {},
+        "t_end_local_ns": 474157900143894,
+        "t_start_local_ns": 474157900142344
+      }
+    },
+    "step_id": 0,
+    "unsynchronized_cross_device_sum_forbidden": true,
+    "wifi_tail_outlier": false,
+    "workload_id": "W_CTRL"
+  },
+  "success_criteria": {
+    "SC1_R_flip_two_configs": {
+      "verdict": "PASS",
+      "note": "NARROW \u2014 corrected scoped R_flip \u22484.8% (not pooled ~20%); CI90 lo>0 on PIPE-NOM|W_GPU and PIPE-CPU|W_GPU",
+      "configs": [
+        "CFG-PIPE-CPU",
+        "CFG-PIPE-NOM"
+      ]
+    },
+    "SC2_closed_loop_consequence": {
+      "verdict": "BLOCKED",
+      "note": "Preregistered PAIRED same-seed claim UNSUPPORTED (model_only vs actuator_ready use different seeds/episode_ids). Unpaired descriptive deadline_miss_rate contrast retained as exploratory only.",
+      "hits": [],
+      "unpaired_exploratory": [
+        {
+          "config": "CFG-PIPE-NOM",
+          "workload": "W_GPU",
+          "metric": "deadline_miss_rate",
+          "ci90": [
+            0.8833333333333333,
+            0.9166666666666666
+          ],
+          "evidence_class": "unpaired_exploratory_only"
+        },
+        {
+          "config": "CFG-PIPE-CPU",
+          "workload": "W_CTRL",
+          "metric": "mean_age_proxy",
+          "ci90": [
+            13217.0,
+            241408.33333333334
+          ],
+          "evidence_class": "unpaired_exploratory_only"
+        },
+        {
+          "config": "CFG-PIPE-CPU",
+          "workload": "W_GPU",
+          "metric": "deadline_miss_rate",
+          "ci90": [
+            0.8833333333333333,
+            0.8833333333333333
+          ],
+          "evidence_class": "unpaired_exploratory_only"
+        }
+      ]
+    },
+    "SC3_cross_workload": {
+      "verdict": "FAIL",
+      "workloads": [
+        "W_GPU"
+      ]
+    },
+    "SC4_compute_equivalence": {
+      "verdict": "FAIL",
+      "detail": {
+        "W_CTRL": {
+          "agreement_rate": 0.27954545454545454,
+          "R_flip_ci90": [
+            0.7068181818181818,
+            0.7272727272727273
+          ],
+          "L_act_over_L_model_p50": 2.4973549512234547,
+          "pass_strict": false,
+          "regime": "pipeline_deadline_bound"
+        },
+        "W_GPU": {
+          "agreement_rate": null,
+          "R_flip_ci90": [
+            null,
+            null
+          ],
+          "L_act_over_L_model_p50": null,
+          "pass_strict": false,
+          "regime": "mixed"
+        }
+      }
+    },
+    "SC5_heldout_separator": {
+      "verdict": "FAIL",
+      "accuracy": 0.5
+    },
+    "SC6_no_extreme_only": {
+      "verdict": "PASS",
+      "note": "primary excludes blackout+wifi_tail"
+    }
+  },
+  "terra_gaps_retained": [
+    "G5_bounded_engineering_harness_not_canonical_safety_G5",
+    "wifi_tail_separate_observation",
+    "F11_BLOCKED_used_REDUCED_APPROXIMATE_SCHED_OTHER_CPU_CAP",
+    "joined_atomic_traces_implemented",
+    "WSA_local_deadline_enforcement_implemented",
+    "no_physical_robot_claim",
+    "TM_H1_remains_UNSUPPORTED",
+    "R_flip_scoped_to_dedicated_measurement_sessions_only",
+    "H_RA3_paired_claim_BLOCKED_unpaired_exploratory_only"
+  ]
+}

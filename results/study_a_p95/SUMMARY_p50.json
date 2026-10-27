@@ -1,0 +1,3391 @@
+{
+  "artifacts_full": [
+    {
+      "actuator_ready_distributed": "SKIP_pending-G5",
+      "arm_aggregates": {
+        "actuator_ready_local": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              476912850,
+              483393468,
+              473725351,
+              499631110,
+              499080285
+            ],
+            "session0_tail_ns": [
+              487887134,
+              483256109,
+              479850862,
+              472375965,
+              490379260
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 511012279.0,
+            "mean_ns": 503659106.5,
+            "min_ns": 495892946.0,
+            "n": 10,
+            "p50_ns": 505317194.0,
+            "p95_ns": 510657250.6,
+            "p99_ns": 510941273.32
+          },
+          "session_p50_ns": {
+            "max_ns": 498471145.0,
+            "mean_ns": 489814283.1,
+            "min_ns": 485906708.0,
+            "n": 10,
+            "p50_ns": 487277890.0,
+            "p95_ns": 497498362.9,
+            "p99_ns": 498276588.58
+          },
+          "session_p95_ns": {
+            "max_ns": 507032486.0,
+            "mean_ns": 499169349.5,
+            "min_ns": 491504870.0,
+            "n": 10,
+            "p50_ns": 500851790.5,
+            "p95_ns": 506233814.75,
+            "p99_ns": 506872751.75
+          },
+          "session_p99_ns": {
+            "max_ns": 509126864.0,
+            "mean_ns": 502263620.2,
+            "min_ns": 494849176.0,
+            "n": 10,
+            "p50_ns": 504888506.5,
+            "p95_ns": 508346515.85,
+            "p99_ns": 508970794.37
+          },
+          "total_samples": 500
+        },
+        "model_only": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              477111549,
+              477272658,
+              482609155,
+              480392427,
+              480886402
+            ],
+            "session0_tail_ns": [
+              483818664,
+              485028362,
+              480770693,
+              490997064,
+              486014602
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 506354164.0,
+            "mean_ns": 497124564.9,
+            "min_ns": 490997064.0,
+            "n": 10,
+            "p50_ns": 496002800.0,
+            "p95_ns": 505091647.15,
+            "p99_ns": 506101660.63
+          },
+          "session_p50_ns": {
+            "max_ns": 494034519.0,
+            "mean_ns": 484830721.1,
+            "min_ns": 480828547.0,
+            "n": 10,
+            "p50_ns": 483582665.5,
+            "p95_ns": 491091172.05,
+            "p99_ns": 493445849.61
+          },
+          "session_p95_ns": {
+            "max_ns": 501589252.0,
+            "mean_ns": 493589847.8,
+            "min_ns": 486026966.0,
+            "n": 10,
+            "p50_ns": 492947137.5,
+            "p95_ns": 500630327.65,
+            "p99_ns": 501397467.13
+          },
+          "session_p99_ns": {
+            "max_ns": 504703384.0,
+            "mean_ns": 496163029.1,
+            "min_ns": 488845705.0,
+            "n": 10,
+            "p50_ns": 495156132.0,
+            "p95_ns": 503830039.3,
+            "p99_ns": 504528715.06
+          },
+          "total_samples": 500
+        },
+        "original_path": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              483364268,
+              479984191,
+              490076603,
+              453647987,
+              466065116
+            ],
+            "session0_tail_ns": [
+              480220188,
+              473271146,
+              486935603,
+              473589493,
+              475076689
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 513103058.0,
+            "mean_ns": 503244276.4,
+            "min_ns": 495101913.0,
+            "n": 10,
+            "p50_ns": 502424992.5,
+            "p95_ns": 511839866.6,
+            "p99_ns": 512850419.72
+          },
+          "session_p50_ns": {
+            "max_ns": 494723587.0,
+            "mean_ns": 487339329.1,
+            "min_ns": 481114119.0,
+            "n": 10,
+            "p50_ns": 486815202.0,
+            "p95_ns": 492712127.05,
+            "p99_ns": 494321295.01
+          },
+          "session_p95_ns": {
+            "max_ns": 503985439.0,
+            "mean_ns": 498343726.7,
+            "min_ns": 491920198.0,
+            "n": 10,
+            "p50_ns": 499962647.5,
+            "p95_ns": 503542800.1,
+            "p99_ns": 503896911.22
+          },
+          "session_p99_ns": {
+            "max_ns": 510474826.0,
+            "mean_ns": 501552694.3,
+            "min_ns": 494621884.0,
+            "n": 10,
+            "p50_ns": 501811229.5,
+            "p95_ns": 509004031.15,
+            "p99_ns": 510180667.03
+          },
+          "total_samples": 500
+        },
+        "policy_ready": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              478370606,
+              484442378,
+              485040392,
+              485409158,
+              483412878
+            ],
+            "session0_tail_ns": [
+              487985583,
+              486716856,
+              482194730,
+              491493559,
+              486995463
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 514170339.0,
+            "mean_ns": 506657071.4,
+            "min_ns": 497815407.0,
+            "n": 10,
+            "p50_ns": 505905578.5,
+            "p95_ns": 514103748.0,
+            "p99_ns": 514157020.8
+          },
+          "session_p50_ns": {
+            "max_ns": 493804442.0,
+            "mean_ns": 488881504.1,
+            "min_ns": 483976447.0,
+            "n": 10,
+            "p50_ns": 488983113.0,
+            "p95_ns": 493524269.75,
+            "p99_ns": 493748407.55
+          },
+          "session_p95_ns": {
+            "max_ns": 504658543.0,
+            "mean_ns": 499481250.0,
+            "min_ns": 492105119.0,
+            "n": 10,
+            "p50_ns": 500381322.5,
+            "p95_ns": 504072297.4,
+            "p99_ns": 504541293.88
+          },
+          "session_p99_ns": {
+            "max_ns": 511502014.0,
+            "mean_ns": 504279148.7,
+            "min_ns": 496287577.0,
+            "n": 10,
+            "p50_ns": 504148264.0,
+            "p95_ns": 510223391.65,
+            "p99_ns": 511246289.53
+          },
+          "total_samples": 500
+        }
+      },
+      "artifact_id": "sdp_streaming_diffusion_policy",
+      "denominator_phrase": "four runnable artifacts from three independent timing lineages",
+      "descriptive_median_ratio_g3_continuity": {
+        "ci95": [
+          1.0031230295835099,
+          1.0181563897264232
+        ],
+        "median_ratio": 1.0072157189891253,
+        "n_boot": 5000,
+        "n_sessions": 10,
+        "seed": 202608035,
+        "session_ratios": [
+          1.0181563897264232,
+          1.0206256125260844,
+          0.998849998378005,
+          1.0000849333969304,
+          1.0321781433462134,
+          1.007262213252439,
+          1.0080309269161818,
+          1.006161125770089,
+          1.0046047146758181,
+          1.0071692247258117
+        ]
+      },
+      "lineage_id": "L-DIFFUSION-POLICY-FAMILY",
+      "n_sessions": 10,
+      "per_session": [
+        {
+          "arm_order": [
+            "original_path",
+            "actuator_ready_local",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 8.7301105,
+          "model_p50_ns": 480828547.5,
+          "model_p95_ns": 486026966.0,
+          "model_p99_ns": 488845705.77,
+          "ratio": 1.0181563897264232,
+          "ready_p50_ns": 489558658.0,
+          "ready_p95_ns": 501667035.3,
+          "ready_p99_ns": 507392757.78,
+          "session_id": 0,
+          "z_ln": 0.017993530814979036
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 9.984518,
+          "model_p50_ns": 484083466.0,
+          "model_p95_ns": 493960065.75,
+          "model_p99_ns": 496877058.90999997,
+          "ratio": 1.0206256125260844,
+          "ready_p50_ns": 494067984.0,
+          "ready_p95_ns": 507032486.45,
+          "ready_p99_ns": 509126864.29,
+          "session_id": 1,
+          "z_ln": 0.020415784890443687
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": -0.559759,
+          "model_p50_ns": 486746270.0,
+          "model_p95_ns": 491309570.75,
+          "model_p99_ns": 493540286.04,
+          "ratio": 0.998849998378005,
+          "ready_p50_ns": 486186511.0,
+          "ready_p95_ns": 501586247.25,
+          "ready_p99_ns": 505672834.53,
+          "session_id": 2,
+          "z_ln": -0.0011506633812583978
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path"
+          ],
+          "delta_ms": 0.0414045,
+          "model_p50_ns": 487493748.0,
+          "model_p95_ns": 499458309.45,
+          "model_p99_ns": 504703384.87,
+          "ratio": 1.0000849333969304,
+          "ready_p50_ns": 487535152.5,
+          "ready_p95_ns": 500117334.2,
+          "ready_p99_ns": 504104179.89,
+          "session_id": 3,
+          "z_ln": 8.492979029364414e-05
+        },
+        {
+          "arm_order": [
+            "original_path",
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only"
+          ],
+          "delta_ms": 15.539833,
+          "model_p50_ns": 482931312.5,
+          "model_p95_ns": 497084680.1,
+          "model_p99_ns": 502309889.59,
+          "ratio": 1.0321781433462134,
+          "ready_p50_ns": 498471145.5,
+          "ready_p95_ns": 505257661.15,
+          "ready_p99_ns": 507037600.17,
+          "session_id": 4,
+          "z_ln": 0.0316712716838603
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 3.5075655,
+          "model_p50_ns": 482988502.0,
+          "model_p95_ns": 491934210.85,
+          "model_p99_ns": 493880589.06,
+          "ratio": 1.007262213252439,
+          "ready_p50_ns": 486496067.5,
+          "ready_p95_ns": 493291936.7,
+          "ready_p99_ns": 495399891.69,
+          "session_id": 5,
+          "z_ln": 0.007235970359505325
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "original_path",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 3.871192,
+          "model_p50_ns": 482035516.0,
+          "model_p95_ns": 489634749.2,
+          "model_p99_ns": 491155025.53,
+          "ratio": 1.0080309269161818,
+          "ready_p50_ns": 485906708.0,
+          "ready_p95_ns": 494235428.8,
+          "ready_p99_ns": 495473544.21999997,
+          "session_id": 6,
+          "z_ln": 0.007998850642976433
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "model_only",
+            "original_path",
+            "policy_ready"
+          ],
+          "delta_ms": 2.9822215,
+          "model_p50_ns": 484038406.5,
+          "model_p95_ns": 489517805.0,
+          "model_p99_ns": 491124062.76,
+          "ratio": 1.006161125770089,
+          "ready_p50_ns": 487020628.0,
+          "ready_p95_ns": 492449346.25,
+          "ready_p99_ns": 497514826.48,
+          "session_id": 7,
+          "z_ln": 0.0061422236339389435
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only",
+            "original_path"
+          ],
+          "delta_ms": 2.274888,
+          "model_p50_ns": 494034519.0,
+          "model_p95_ns": 501589252.45,
+          "model_p99_ns": 502762618.84,
+          "ratio": 1.0046047146758181,
+          "ready_p50_ns": 496309407.0,
+          "ready_p95_ns": 504551152.7,
+          "ready_p99_ns": 506064531.96,
+          "session_id": 8,
+          "z_ln": 0.004594145410409889
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path",
+            "model_only"
+          ],
+          "delta_ms": 3.4636455,
+          "model_p50_ns": 483126925.5,
+          "model_p95_ns": 495382872.85,
+          "model_p99_ns": 496431675.8,
+          "ratio": 1.0071692247258117,
+          "ready_p50_ns": 486590571.0,
+          "ready_p95_ns": 491504870.75,
+          "ready_p99_ns": 494849176.01,
+          "session_id": 9,
+          "z_ln": 0.007143648004978753
+        }
+      ],
+      "primary_tost": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_z": [
+          0.005440128815068262,
+          0.015477898398229944
+        ],
+        "ci_level": 0.9,
+        "delta_L": -0.05129329438755058,
+        "delta_U": 0.04879016416943205,
+        "estimand": "mean_z_ln_ready_over_model",
+        "exp_mean_z": 1.010265299552554,
+        "mean_z": 0.010212969185012763,
+        "sesoi_ratio": [
+          0.95,
+          1.05
+        ],
+        "session_ratios": [
+          1.0181563897264232,
+          1.0206256125260844,
+          0.998849998378005,
+          1.0000849333969304,
+          1.0321781433462134,
+          1.007262213252439,
+          1.0080309269161818,
+          1.006161125770089,
+          1.0046047146758181,
+          1.0071692247258117
+        ],
+        "session_z": [
+          0.017993530814979036,
+          0.020415784890443687,
+          -0.0011506633812583978,
+          8.492979029364414e-05,
+          0.0316712716838603,
+          0.007235970359505325,
+          0.007998850642976433,
+          0.0061422236339389435,
+          0.004594145410409889,
+          0.007143648004978753
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "protocol_complete": true,
+      "role": "robot",
+      "secondary_absolute_tost_ms": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_delta_ms": [
+          2.6471805500000003,
+          7.570776149999999
+        ],
+        "ci_level": 0.9,
+        "estimand": "mean_delta_ms_ready_minus_model",
+        "mean_delta_ms": 4.9835619499999995,
+        "role": "secondary_complement_not_gate_primary",
+        "sesoi_ms": [
+          -1.0,
+          1.0
+        ],
+        "session_delta_ms": [
+          8.7301105,
+          9.984518,
+          -0.559759,
+          0.0414045,
+          15.539833,
+          3.5075655,
+          3.871192,
+          2.9822215,
+          2.274888,
+          3.4636455
+        ],
+        "verdict": "NOT-EQUIVALENT"
+      },
+      "sessions_required": 10
+    },
+    {
+      "actuator_ready_distributed": "SKIP_pending-G5",
+      "arm_aggregates": {
+        "actuator_ready_local": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              89391290,
+              83842744,
+              82760775,
+              79225019,
+              84678127
+            ],
+            "session0_tail_ns": [
+              77589225,
+              77057741,
+              77654264,
+              78990361,
+              83306879
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 95957277.0,
+            "mean_ns": 89786818.7,
+            "min_ns": 86878495.0,
+            "n": 10,
+            "p50_ns": 89140957.5,
+            "p95_ns": 94958862.45,
+            "p99_ns": 95757594.09
+          },
+          "session_p50_ns": {
+            "max_ns": 82735494.0,
+            "mean_ns": 78969406.3,
+            "min_ns": 77765468.0,
+            "n": 10,
+            "p50_ns": 78673649.5,
+            "p95_ns": 81211124.85,
+            "p99_ns": 82430620.17
+          },
+          "session_p95_ns": {
+            "max_ns": 87919177.0,
+            "mean_ns": 86089636.3,
+            "min_ns": 84627748.0,
+            "n": 10,
+            "p50_ns": 86262014.0,
+            "p95_ns": 87714835.6,
+            "p99_ns": 87878308.72
+          },
+          "session_p99_ns": {
+            "max_ns": 93046224.0,
+            "mean_ns": 88669672.1,
+            "min_ns": 86335179.0,
+            "n": 10,
+            "p50_ns": 88006839.0,
+            "p95_ns": 91868139.3,
+            "p99_ns": 92810607.06
+          },
+          "total_samples": 500
+        },
+        "model_only": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              87223671,
+              76993211,
+              77075410,
+              77100420,
+              76356007
+            ],
+            "session0_tail_ns": [
+              78582746,
+              76935442,
+              76422426,
+              75830193,
+              82949123
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 95998987.0,
+            "mean_ns": 90002149.6,
+            "min_ns": 86855005.0,
+            "n": 10,
+            "p50_ns": 89492724.0,
+            "p95_ns": 94461900.39999999,
+            "p99_ns": 95691569.68
+          },
+          "session_p50_ns": {
+            "max_ns": 79600165.0,
+            "mean_ns": 78699321.2,
+            "min_ns": 77752738.0,
+            "n": 10,
+            "p50_ns": 78870385.0,
+            "p95_ns": 79393439.5,
+            "p99_ns": 79558819.9
+          },
+          "session_p95_ns": {
+            "max_ns": 87659460.0,
+            "mean_ns": 86131903.3,
+            "min_ns": 84490824.0,
+            "n": 10,
+            "p50_ns": 85925394.5,
+            "p95_ns": 87653683.35,
+            "p99_ns": 87658304.67
+          },
+          "session_p99_ns": {
+            "max_ns": 93142642.0,
+            "mean_ns": 88859085.6,
+            "min_ns": 86234367.0,
+            "n": 10,
+            "p50_ns": 88515349.5,
+            "p95_ns": 92489471.95,
+            "p99_ns": 93012007.99
+          },
+          "total_samples": 500
+        },
+        "original_path": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              80588067,
+              79190400,
+              78901733,
+              76676894,
+              76705543
+            ],
+            "session0_tail_ns": [
+              78089180,
+              77159279,
+              75909111,
+              76327438,
+              77141970
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 101765020.0,
+            "mean_ns": 91102474.6,
+            "min_ns": 86411569.0,
+            "n": 10,
+            "p50_ns": 90703303.0,
+            "p95_ns": 98014207.44999999,
+            "p99_ns": 101014857.49
+          },
+          "session_p50_ns": {
+            "max_ns": 79046066.0,
+            "mean_ns": 78507977.5,
+            "min_ns": 77706174.0,
+            "n": 10,
+            "p50_ns": 78581620.0,
+            "p95_ns": 79011074.45,
+            "p99_ns": 79039067.69
+          },
+          "session_p95_ns": {
+            "max_ns": 90873835.0,
+            "mean_ns": 85789344.4,
+            "min_ns": 83097115.0,
+            "n": 10,
+            "p50_ns": 85236058.5,
+            "p95_ns": 89149281.1,
+            "p99_ns": 90528924.22
+          },
+          "session_p99_ns": {
+            "max_ns": 97959418.0,
+            "mean_ns": 89431084.8,
+            "min_ns": 86191193.0,
+            "n": 10,
+            "p50_ns": 89558301.0,
+            "p95_ns": 94577480.35,
+            "p99_ns": 97283030.47
+          },
+          "total_samples": 500
+        },
+        "policy_ready": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              90108394,
+              81969173,
+              87219911,
+              82870734,
+              78502876
+            ],
+            "session0_tail_ns": [
+              77521836,
+              76768143,
+              75118130,
+              72325907,
+              79618465
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 96186954.0,
+            "mean_ns": 89525233.3,
+            "min_ns": 84312830.0,
+            "n": 10,
+            "p50_ns": 88582878.5,
+            "p95_ns": 95605928.85,
+            "p99_ns": 96070748.97
+          },
+          "session_p50_ns": {
+            "max_ns": 79325888.0,
+            "mean_ns": 78456315.1,
+            "min_ns": 77400782.0,
+            "n": 10,
+            "p50_ns": 78450699.0,
+            "p95_ns": 79110034.25,
+            "p99_ns": 79282717.25
+          },
+          "session_p95_ns": {
+            "max_ns": 88386108.0,
+            "mean_ns": 85313822.0,
+            "min_ns": 82318215.0,
+            "n": 10,
+            "p50_ns": 85587824.5,
+            "p95_ns": 87640412.1,
+            "p99_ns": 88236968.82
+          },
+          "session_p99_ns": {
+            "max_ns": 92890814.0,
+            "mean_ns": 88069506.7,
+            "min_ns": 84006651.0,
+            "n": 10,
+            "p50_ns": 88001319.5,
+            "p95_ns": 91852121.3,
+            "p99_ns": 92683075.46
+          },
+          "total_samples": 500
+        }
+      },
+      "artifact_id": "rd_vla_recurrent_depth",
+      "denominator_phrase": "four runnable artifacts from three independent timing lineages",
+      "descriptive_median_ratio_g3_continuity": {
+        "ci95": [
+          0.9894933509245867,
+          1.0101835982702414
+        ],
+        "median_ratio": 0.9947449539954293,
+        "n_boot": 5000,
+        "n_sessions": 10,
+        "seed": 202608035,
+        "session_ratios": [
+          0.9959506972915816,
+          0.9833981227964053,
+          1.0640846367102557,
+          0.9866738795519756,
+          0.993539210699277,
+          1.0184666045110475,
+          0.9924754515915358,
+          1.0019005920294355,
+          0.9894933509245867,
+          1.009614849781047
+        ]
+      },
+      "lineage_id": "L-ADAPTIVE-DEPTH-VLA",
+      "n_sessions": 10,
+      "per_session": [
+        {
+          "arm_order": [
+            "original_path",
+            "actuator_ready_local",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": -0.319502,
+          "model_p50_ns": 78902967.5,
+          "model_p95_ns": 87646623.2,
+          "model_p99_ns": 89801022.23,
+          "ratio": 0.9959506972915816,
+          "ready_p50_ns": 78583465.5,
+          "ready_p95_ns": 85388851.85,
+          "ready_p99_ns": 88846190.48,
+          "session_id": 0,
+          "z_ln": -0.004057523334002925
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": -1.3128485,
+          "model_p50_ns": 79078316.5,
+          "model_p95_ns": 87087828.2,
+          "model_p99_ns": 88426922.72,
+          "ratio": 0.9833981227964053,
+          "ready_p50_ns": 77765468.0,
+          "ready_p95_ns": 84627748.39999999,
+          "ready_p99_ns": 86723970.07,
+          "session_id": 1,
+          "z_ln": -0.01674123289730845
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 4.982756,
+          "model_p50_ns": 77752738.5,
+          "model_p95_ns": 85049017.2,
+          "model_p99_ns": 88207271.32999998,
+          "ratio": 1.0640846367102557,
+          "ready_p50_ns": 82735494.5,
+          "ready_p95_ns": 86880004.25,
+          "ready_p99_ns": 87321398.9,
+          "session_id": 2,
+          "z_ln": 0.06211493353617029
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path"
+          ],
+          "delta_ms": -1.0546395,
+          "model_p50_ns": 79140775.0,
+          "model_p95_ns": 84490824.0,
+          "model_p99_ns": 86723391.91,
+          "ratio": 0.9866738795519756,
+          "ready_p50_ns": 78086135.5,
+          "ready_p95_ns": 86546859.4,
+          "ready_p99_ns": 88347551.8,
+          "session_id": 3,
+          "z_ln": -0.01341571000212918
+        },
+        {
+          "arm_order": [
+            "original_path",
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only"
+          ],
+          "delta_ms": -0.505935,
+          "model_p50_ns": 78308543.5,
+          "model_p95_ns": 84977648.45,
+          "model_p99_ns": 86234367.57,
+          "ratio": 0.993539210699277,
+          "ready_p50_ns": 77802608.5,
+          "ready_p95_ns": 85977169.35,
+          "ready_p99_ns": 87554170.42999999,
+          "session_id": 4,
+          "z_ln": -0.0064817505327633826
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 1.43872,
+          "model_p50_ns": 77909287.5,
+          "model_p95_ns": 85072981.4,
+          "model_p99_ns": 88720846.13,
+          "ratio": 1.0184666045110475,
+          "ready_p50_ns": 79348007.5,
+          "ready_p95_ns": 87465085.75,
+          "ready_p99_ns": 90427654.47,
+          "session_id": 5,
+          "z_ln": 0.018298167252749954
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "original_path",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": -0.5949545,
+          "model_p50_ns": 79068466.0,
+          "model_p95_ns": 85022763.1,
+          "model_p99_ns": 87039465.56,
+          "ratio": 0.9924754515915358,
+          "ready_p50_ns": 78473511.5,
+          "ready_p95_ns": 84790690.94999999,
+          "ready_p99_ns": 87666127.25,
+          "session_id": 6,
+          "z_ln": -0.0075530006394900874
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "model_only",
+            "original_path",
+            "policy_ready"
+          ],
+          "delta_ms": 0.1498385,
+          "model_p50_ns": 78837803.0,
+          "model_p95_ns": 86777808.95,
+          "model_p99_ns": 88603777.74,
+          "ratio": 1.0019005920294355,
+          "ready_p50_ns": 78987641.5,
+          "ready_p95_ns": 84713206.4,
+          "ready_p99_ns": 86335179.82,
+          "session_id": 7,
+          "z_ln": 0.0018987881896184015
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only",
+            "original_path"
+          ],
+          "delta_ms": -0.836331,
+          "model_p50_ns": 79600165.0,
+          "model_p95_ns": 87659460.35,
+          "model_p99_ns": 91691153.82,
+          "ratio": 0.9894933509245867,
+          "ready_p50_ns": 78763834.0,
+          "ready_p95_ns": 87919177.6,
+          "ready_p99_ns": 93046224.72999999,
+          "session_id": 8,
+          "z_ln": -0.010562233593637999
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path",
+            "model_only"
+          ],
+          "delta_ms": 0.753748,
+          "model_p50_ns": 78394152.5,
+          "model_p95_ns": 87534081.6,
+          "model_p99_ns": 93142642.74,
+          "ratio": 1.009614849781047,
+          "ready_p50_ns": 79147900.5,
+          "ready_p95_ns": 86587574.8,
+          "ready_p99_ns": 90428258.53999999,
+          "session_id": 9,
+          "z_ln": 0.009568921275333233
+        }
+      ],
+      "primary_tost": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_z": [
+          -0.006856238144100945,
+          0.016096242987871122
+        ],
+        "ci_level": 0.9,
+        "delta_L": -0.05129329438755058,
+        "delta_U": 0.04879016416943205,
+        "estimand": "mean_z_ln_ready_over_model",
+        "exp_mean_z": 1.0033124098703934,
+        "mean_z": 0.0033069359254539856,
+        "sesoi_ratio": [
+          0.95,
+          1.05
+        ],
+        "session_ratios": [
+          0.9959506972915816,
+          0.9833981227964053,
+          1.0640846367102557,
+          0.9866738795519756,
+          0.993539210699277,
+          1.0184666045110475,
+          0.9924754515915358,
+          1.0019005920294355,
+          0.9894933509245867,
+          1.009614849781047
+        ],
+        "session_z": [
+          -0.004057523334002925,
+          -0.01674123289730845,
+          0.06211493353617029,
+          -0.01341571000212918,
+          -0.0064817505327633826,
+          0.018298167252749954,
+          -0.0075530006394900874,
+          0.0018987881896184015,
+          -0.010562233593637999,
+          0.009568921275333233
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "protocol_complete": true,
+      "role": "robot",
+      "secondary_absolute_tost_ms": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_delta_ms": [
+          -0.53870505,
+          1.293538
+        ],
+        "ci_level": 0.9,
+        "estimand": "mean_delta_ms_ready_minus_model",
+        "mean_delta_ms": 0.27008519999999997,
+        "role": "secondary_complement_not_gate_primary",
+        "sesoi_ms": [
+          -1.0,
+          1.0
+        ],
+        "session_delta_ms": [
+          -0.319502,
+          -1.3128485,
+          4.982756,
+          -1.0546395,
+          -0.505935,
+          1.43872,
+          -0.5949545,
+          0.1498385,
+          -0.836331,
+          0.753748
+        ],
+        "verdict": "INCONCLUSIVE"
+      },
+      "sessions_required": 10
+    },
+    {
+      "actuator_ready_distributed": "SKIP_pending-G5",
+      "arm_aggregates": {
+        "actuator_ready_local": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              11636837,
+              11141921,
+              11345909,
+              11222891,
+              11192761
+            ],
+            "session0_tail_ns": [
+              11279821,
+              11380430,
+              11189472,
+              11254291,
+              11256710
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 89633698.0,
+            "mean_ns": 24744221.4,
+            "min_ns": 16762287.0,
+            "n": 10,
+            "p50_ns": 17632584.0,
+            "p95_ns": 57558225.84999993,
+            "p99_ns": 83218603.57000001
+          },
+          "session_p50_ns": {
+            "max_ns": 11612017.0,
+            "mean_ns": 11486683.1,
+            "min_ns": 11230531.0,
+            "n": 10,
+            "p50_ns": 11489780.5,
+            "p95_ns": 11610361.0,
+            "p99_ns": 11611685.8
+          },
+          "session_p95_ns": {
+            "max_ns": 14462679.0,
+            "mean_ns": 14034699.8,
+            "min_ns": 13655169.0,
+            "n": 10,
+            "p50_ns": 14024836.0,
+            "p95_ns": 14459798.55,
+            "p99_ns": 14462102.91
+          },
+          "session_p99_ns": {
+            "max_ns": 17314916.0,
+            "mean_ns": 16223373.1,
+            "min_ns": 14722446.0,
+            "n": 10,
+            "p50_ns": 16553270.5,
+            "p95_ns": 17052903.5,
+            "p99_ns": 17262513.5
+          },
+          "total_samples": 10000
+        },
+        "model_only": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              10722176,
+              10808405,
+              10728786,
+              11164902,
+              10650926
+            ],
+            "session0_tail_ns": [
+              14765996,
+              12298901,
+              11750895,
+              11742476,
+              11268690
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 96024956.0,
+            "mean_ns": 28171425.0,
+            "min_ns": 17205083.0,
+            "n": 10,
+            "p50_ns": 17979105.0,
+            "p95_ns": 72453393.04999995,
+            "p99_ns": 91310643.41
+          },
+          "session_p50_ns": {
+            "max_ns": 12350050.0,
+            "mean_ns": 11350024.1,
+            "min_ns": 10950443.0,
+            "n": 10,
+            "p50_ns": 11220551.0,
+            "p95_ns": 11971972.6,
+            "p99_ns": 12274434.52
+          },
+          "session_p95_ns": {
+            "max_ns": 14822611.0,
+            "mean_ns": 13717025.3,
+            "min_ns": 13035823.0,
+            "n": 10,
+            "p50_ns": 13644104.5,
+            "p95_ns": 14485690.6,
+            "p99_ns": 14755226.92
+          },
+          "session_p99_ns": {
+            "max_ns": 17532938.0,
+            "mean_ns": 15872005.6,
+            "min_ns": 14433593.0,
+            "n": 10,
+            "p50_ns": 15954947.5,
+            "p95_ns": 17343712.55,
+            "p99_ns": 17495092.91
+          },
+          "total_samples": 10000
+        },
+        "original_path": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              13296491,
+              13123583,
+              13039144,
+              13026923,
+              13007714
+            ],
+            "session0_tail_ns": [
+              11254110,
+              12650687,
+              11062623,
+              12334250,
+              11863125
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 21049316.0,
+            "mean_ns": 18302420.2,
+            "min_ns": 16112133.0,
+            "n": 10,
+            "p50_ns": 17979695.0,
+            "p95_ns": 20484116.45,
+            "p99_ns": 20936276.09
+          },
+          "session_p50_ns": {
+            "max_ns": 11637332.0,
+            "mean_ns": 11377808.0,
+            "min_ns": 11152426.0,
+            "n": 10,
+            "p50_ns": 11343159.0,
+            "p95_ns": 11581390.7,
+            "p99_ns": 11626143.74
+          },
+          "session_p95_ns": {
+            "max_ns": 14836495.0,
+            "mean_ns": 13855606.3,
+            "min_ns": 13497735.0,
+            "n": 10,
+            "p50_ns": 13718811.5,
+            "p95_ns": 14481578.2,
+            "p99_ns": 14765511.64
+          },
+          "session_p99_ns": {
+            "max_ns": 17256517.0,
+            "mean_ns": 16056994.4,
+            "min_ns": 14470022.0,
+            "n": 10,
+            "p50_ns": 16168992.5,
+            "p95_ns": 17092805.65,
+            "p99_ns": 17223774.73
+          },
+          "total_samples": 10000
+        },
+        "policy_ready": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              11326420,
+              11854925,
+              12322880,
+              13065793,
+              11777005
+            ],
+            "session0_tail_ns": [
+              11768325,
+              11064813,
+              11305800,
+              10838764,
+              10822685
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 22266384.0,
+            "mean_ns": 18133441.8,
+            "min_ns": 16326031.0,
+            "n": 10,
+            "p50_ns": 17502805.0,
+            "p95_ns": 21111024.749999996,
+            "p99_ns": 22035312.15
+          },
+          "session_p50_ns": {
+            "max_ns": 11730756.0,
+            "mean_ns": 11455162.8,
+            "min_ns": 11177611.0,
+            "n": 10,
+            "p50_ns": 11454378.0,
+            "p95_ns": 11704131.75,
+            "p99_ns": 11725431.15
+          },
+          "session_p95_ns": {
+            "max_ns": 14728246.0,
+            "mean_ns": 13938919.1,
+            "min_ns": 13383013.0,
+            "n": 10,
+            "p50_ns": 13875013.0,
+            "p95_ns": 14562130.299999999,
+            "p99_ns": 14695022.86
+          },
+          "session_p99_ns": {
+            "max_ns": 17360293.0,
+            "mean_ns": 15974585.3,
+            "min_ns": 14991724.0,
+            "n": 10,
+            "p50_ns": 16086317.5,
+            "p95_ns": 17126296.599999998,
+            "p99_ns": 17313493.72
+          },
+          "total_samples": 10000
+        }
+      },
+      "artifact_id": "msdnet_pytorch_kalviny",
+      "denominator_phrase": "four runnable artifacts from three independent timing lineages",
+      "descriptive_median_ratio_g3_continuity": {
+        "ci95": [
+          1.0085542605858089,
+          1.0305834125077236
+        ],
+        "median_ratio": 1.0194300134116698,
+        "n_boot": 5000,
+        "n_sessions": 10,
+        "seed": 202608035,
+        "session_ratios": [
+          1.0085542605858089,
+          0.9380312225456577,
+          1.0106670388339016,
+          1.0210238048971634,
+          1.0465789831516406,
+          0.9997093591516172,
+          1.017836221926176,
+          1.037957880811306,
+          1.0254899607718013,
+          1.0232089442041412
+        ]
+      },
+      "lineage_id": "L-EARLYEXIT-VISION-CNN",
+      "n_sessions": 10,
+      "per_session": [
+        {
+          "arm_order": [
+            "original_path",
+            "actuator_ready_local",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 0.0984585,
+          "model_p50_ns": 11509878.5,
+          "model_p95_ns": 14822611.449999996,
+          "model_p99_ns": 17112437.69,
+          "ratio": 1.0085542605858089,
+          "ready_p50_ns": 11608337.0,
+          "ready_p95_ns": 14462679.499999998,
+          "ready_p99_ns": 16582129.61,
+          "session_id": 0,
+          "z_ln": 0.008517880222900938
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": -0.7653175,
+          "model_p50_ns": 12350050.0,
+          "model_p95_ns": 14073899.999999998,
+          "model_p99_ns": 16615686.379999999,
+          "ratio": 0.9380312225456577,
+          "ready_p50_ns": 11584732.5,
+          "ready_p95_ns": 13739045.5,
+          "ready_p99_ns": 15444854.1,
+          "session_id": 1,
+          "z_ln": -0.06397204423387845
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 0.1225585,
+          "model_p50_ns": 11489458.5,
+          "model_p95_ns": 14055318.45,
+          "model_p99_ns": 17532938.1,
+          "ratio": 1.0106670388339016,
+          "ready_p50_ns": 11612017.0,
+          "ready_p95_ns": 14255017.499999998,
+          "ready_p99_ns": 16732666.5,
+          "session_id": 2,
+          "z_ln": 0.010610547351296313
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path"
+          ],
+          "delta_ms": 0.2356425,
+          "model_p50_ns": 11208366.0,
+          "model_p95_ns": 13747512.95,
+          "model_p99_ns": 15671197.389999999,
+          "ratio": 1.0210238048971634,
+          "ready_p50_ns": 11444008.5,
+          "ready_p95_ns": 14456278.949999997,
+          "ready_p99_ns": 16578164.889999999,
+          "session_id": 3,
+          "z_ln": 0.020805854187091494
+        },
+        {
+          "arm_order": [
+            "original_path",
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only"
+          ],
+          "delta_ms": 0.5100605,
+          "model_p50_ns": 10950443.0,
+          "model_p95_ns": 13035823.5,
+          "model_p99_ns": 14433593.339999994,
+          "ratio": 1.0465789831516406,
+          "ready_p50_ns": 11460503.5,
+          "ready_p95_ns": 13852646.0,
+          "ready_p99_ns": 15408250.489999998,
+          "session_id": 4,
+          "z_ln": 0.04552673368386769
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": -0.003265,
+          "model_p50_ns": 11233796.0,
+          "model_p95_ns": 13540697.499999998,
+          "model_p99_ns": 16526048.6,
+          "ratio": 0.9997093591516172,
+          "ready_p50_ns": 11230531.0,
+          "ready_p95_ns": 13659215.0,
+          "ready_p99_ns": 16561693.179999998,
+          "session_id": 5,
+          "z_ln": -0.000290683092619657
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "original_path",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 0.199863,
+          "model_p50_ns": 11205456.0,
+          "model_p95_ns": 13261768.5,
+          "model_p99_ns": 14717987.459999995,
+          "ratio": 1.017836221926176,
+          "ready_p50_ns": 11405319.0,
+          "ready_p95_ns": 13655169.0,
+          "ready_p99_ns": 16544848.6,
+          "session_id": 6,
+          "z_ln": 0.0176790229910765
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "model_only",
+            "original_path",
+            "policy_ready"
+          ],
+          "delta_ms": 0.422696,
+          "model_p50_ns": 11135922.0,
+          "model_p95_ns": 13344873.499999998,
+          "model_p99_ns": 14786152.29,
+          "ratio": 1.037957880811306,
+          "ready_p50_ns": 11558618.0,
+          "ready_p95_ns": 13709807.95,
+          "ready_p99_ns": 14722446.79,
+          "session_id": 7,
+          "z_ln": 0.03725520666734073
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only",
+            "original_path"
+          ],
+          "delta_ms": 0.286322,
+          "model_p50_ns": 11232736.0,
+          "model_p95_ns": 13926448.049999999,
+          "model_p99_ns": 16238698.5,
+          "ratio": 1.0254899607718013,
+          "ready_p50_ns": 11519058.0,
+          "ready_p95_ns": 14197026.5,
+          "ready_p99_ns": 16343765.5,
+          "session_id": 8,
+          "z_ln": 0.025170508888817042
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path",
+            "model_only"
+          ],
+          "delta_ms": 0.259572,
+          "model_p50_ns": 11184136.5,
+          "model_p95_ns": 13361304.0,
+          "model_p99_ns": 15085320.979999999,
+          "ratio": 1.0232089442041412,
+          "ready_p50_ns": 11443708.5,
+          "ready_p95_ns": 14360116.0,
+          "ready_p99_ns": 17314916.779999997,
+          "session_id": 9,
+          "z_ln": 0.022943712647868236
+        }
+      ],
+      "primary_tost": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_z": [
+          -0.0035353641523862027,
+          0.02548420545112181
+        ],
+        "ci_level": 0.9,
+        "delta_L": -0.05129329438755058,
+        "delta_U": 0.04879016416943205,
+        "estimand": "mean_z_ln_ready_over_model",
+        "exp_mean_z": 1.012502180859328,
+        "mean_z": 0.012424673931376083,
+        "sesoi_ratio": [
+          0.95,
+          1.05
+        ],
+        "session_ratios": [
+          1.0085542605858089,
+          0.9380312225456577,
+          1.0106670388339016,
+          1.0210238048971634,
+          1.0465789831516406,
+          0.9997093591516172,
+          1.017836221926176,
+          1.037957880811306,
+          1.0254899607718013,
+          1.0232089442041412
+        ],
+        "session_z": [
+          0.008517880222900938,
+          -0.06397204423387845,
+          0.010610547351296313,
+          0.020805854187091494,
+          0.04552673368386769,
+          -0.000290683092619657,
+          0.0176790229910765,
+          0.03725520666734073,
+          0.025170508888817042,
+          0.022943712647868236
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "protocol_complete": true,
+      "role": "perception_bounded",
+      "secondary_absolute_tost_ms": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_delta_ms": [
+          -0.05209459999999999,
+          0.2880876
+        ],
+        "ci_level": 0.9,
+        "estimand": "mean_delta_ms_ready_minus_model",
+        "mean_delta_ms": 0.13665905,
+        "role": "secondary_complement_not_gate_primary",
+        "sesoi_ms": [
+          -1.0,
+          1.0
+        ],
+        "session_delta_ms": [
+          0.0984585,
+          -0.7653175,
+          0.1225585,
+          0.2356425,
+          0.5100605,
+          -0.003265,
+          0.199863,
+          0.422696,
+          0.286322,
+          0.259572
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "sessions_required": 10
+    },
+    {
+      "actuator_ready_distributed": "SKIP_pending-G5",
+      "arm_aggregates": {
+        "actuator_ready_local": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              7775654,
+              8800374,
+              8232310,
+              7862054,
+              7915703
+            ],
+            "session0_tail_ns": [
+              8351599,
+              7922403,
+              7813994,
+              7809784,
+              7805804
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 13216602.0,
+            "mean_ns": 12056199.9,
+            "min_ns": 11572588.0,
+            "n": 10,
+            "p50_ns": 11847625.0,
+            "p95_ns": 12887456.7,
+            "p99_ns": 13150772.94
+          },
+          "session_p50_ns": {
+            "max_ns": 7861339.0,
+            "mean_ns": 7781620.0,
+            "min_ns": 7652995.0,
+            "n": 10,
+            "p50_ns": 7808509.0,
+            "p95_ns": 7858582.3,
+            "p99_ns": 7860787.66
+          },
+          "session_p95_ns": {
+            "max_ns": 9846409.0,
+            "mean_ns": 9633253.4,
+            "min_ns": 9458926.0,
+            "n": 10,
+            "p50_ns": 9645570.0,
+            "p95_ns": 9814074.7,
+            "p99_ns": 9839942.14
+          },
+          "session_p99_ns": {
+            "max_ns": 10922500.0,
+            "mean_ns": 10649993.5,
+            "min_ns": 10273794.0,
+            "n": 10,
+            "p50_ns": 10705507.5,
+            "p95_ns": 10887600.25,
+            "p99_ns": 10915520.05
+          },
+          "total_samples": 10000
+        },
+        "model_only": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              7499707,
+              7562876,
+              7471278,
+              7466067,
+              7541216
+            ],
+            "session0_tail_ns": [
+              7453148,
+              7469337,
+              7453667,
+              7459688,
+              7453617
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 15280382.0,
+            "mean_ns": 12187939.6,
+            "min_ns": 10998043.0,
+            "n": 10,
+            "p50_ns": 11937104.5,
+            "p95_ns": 14346334.999999998,
+            "p99_ns": 15093572.6
+          },
+          "session_p50_ns": {
+            "max_ns": 7801099.0,
+            "mean_ns": 7625440.1,
+            "min_ns": 7503857.0,
+            "n": 10,
+            "p50_ns": 7606676.0,
+            "p95_ns": 7786955.5,
+            "p99_ns": 7798270.3
+          },
+          "session_p95_ns": {
+            "max_ns": 10126598.0,
+            "mean_ns": 9621912.2,
+            "min_ns": 9226334.0,
+            "n": 10,
+            "p50_ns": 9642126.0,
+            "p95_ns": 10031419.85,
+            "p99_ns": 10107562.37
+          },
+          "session_p99_ns": {
+            "max_ns": 11048448.0,
+            "mean_ns": 10652392.7,
+            "min_ns": 10323879.0,
+            "n": 10,
+            "p50_ns": 10630455.0,
+            "p95_ns": 11010118.35,
+            "p99_ns": 11040782.07
+          },
+          "total_samples": 10000
+        },
+        "original_path": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              7682795,
+              7650045,
+              7661086,
+              7668355,
+              7633506
+            ],
+            "session0_tail_ns": [
+              7995963,
+              7176631,
+              7119730,
+              7292179,
+              7124040
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 18779187.0,
+            "mean_ns": 13057860.1,
+            "min_ns": 10832295.0,
+            "n": 10,
+            "p50_ns": 12127477.5,
+            "p95_ns": 17382166.949999996,
+            "p99_ns": 18499782.990000002
+          },
+          "session_p50_ns": {
+            "max_ns": 7819009.0,
+            "mean_ns": 7709318.8,
+            "min_ns": 7550597.0,
+            "n": 10,
+            "p50_ns": 7723449.5,
+            "p95_ns": 7810875.25,
+            "p99_ns": 7817382.25
+          },
+          "session_p95_ns": {
+            "max_ns": 9814302.0,
+            "mean_ns": 9507164.1,
+            "min_ns": 9162873.0,
+            "n": 10,
+            "p50_ns": 9501387.0,
+            "p95_ns": 9772227.0,
+            "p99_ns": 9805887.0
+          },
+          "session_p99_ns": {
+            "max_ns": 10862943.0,
+            "mean_ns": 10603048.4,
+            "min_ns": 10142254.0,
+            "n": 10,
+            "p50_ns": 10657211.5,
+            "p95_ns": 10844825.55,
+            "p99_ns": 10859319.51
+          },
+          "total_samples": 10000
+        },
+        "policy_ready": {
+          "n_sessions": 10,
+          "raw_value_sample": {
+            "session0_head_ns": [
+              7836474,
+              7730595,
+              7830534,
+              7834074,
+              7829464
+            ],
+            "session0_tail_ns": [
+              7600226,
+              7609906,
+              7677775,
+              7594246,
+              7602766
+            ]
+          },
+          "session_max_ns": {
+            "max_ns": 15550369.0,
+            "mean_ns": 12628736.3,
+            "min_ns": 11240611.0,
+            "n": 10,
+            "p50_ns": 11857760.0,
+            "p95_ns": 15033814.45,
+            "p99_ns": 15447058.09
+          },
+          "session_p50_ns": {
+            "max_ns": 7906853.0,
+            "mean_ns": 7783140.1,
+            "min_ns": 7589171.0,
+            "n": 10,
+            "p50_ns": 7808689.0,
+            "p95_ns": 7903021.25,
+            "p99_ns": 7906086.65
+          },
+          "session_p95_ns": {
+            "max_ns": 9950267.0,
+            "mean_ns": 9658261.8,
+            "min_ns": 9393988.0,
+            "n": 10,
+            "p50_ns": 9660753.5,
+            "p95_ns": 9928472.6,
+            "p99_ns": 9945908.12
+          },
+          "session_p99_ns": {
+            "max_ns": 11240659.0,
+            "mean_ns": 10870217.3,
+            "min_ns": 10441312.0,
+            "n": 10,
+            "p50_ns": 10870587.0,
+            "p95_ns": 11178774.55,
+            "p99_ns": 11228282.11
+          },
+          "total_samples": 10000
+        }
+      },
+      "artifact_id": "sdn_kaya_shallow_deep",
+      "denominator_phrase": "four runnable artifacts from three independent timing lineages",
+      "descriptive_median_ratio_g3_continuity": {
+        "ci95": [
+          1.0038066477043568,
+          1.0390075943238053
+        ],
+        "median_ratio": 1.0225681849446635,
+        "n_boot": 5000,
+        "n_sessions": 10,
+        "seed": 202608035,
+        "session_ratios": [
+          1.0352484406963478,
+          1.0439236781830996,
+          1.031981297270517,
+          1.0053043167379365,
+          1.0443871989238,
+          1.01315507261881,
+          1.0023089786707773,
+          1.0047116975922352,
+          1.034091510464511,
+          0.9917805566206875
+        ]
+      },
+      "lineage_id": "L-EARLYEXIT-VISION-CNN",
+      "n_sessions": 10,
+      "per_session": [
+        {
+          "arm_order": [
+            "original_path",
+            "actuator_ready_local",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 0.266578,
+          "model_p50_ns": 7562831.0,
+          "model_p95_ns": 9849745.5,
+          "model_p99_ns": 10628272.799999999,
+          "ratio": 1.0352484406963478,
+          "ready_p50_ns": 7829409.0,
+          "ready_p95_ns": 9720195.0,
+          "ready_p99_ns": 10666117.799999999,
+          "session_id": 0,
+          "z_ln": 0.03464143723264703
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 0.329597,
+          "model_p50_ns": 7503857.0,
+          "model_p95_ns": 9610385.499999996,
+          "model_p99_ns": 10633240.8,
+          "ratio": 1.0439236781830996,
+          "ready_p50_ns": 7833454.0,
+          "ready_p95_ns": 9458926.45,
+          "ready_p99_ns": 10273794.4,
+          "session_id": 1,
+          "z_ln": 0.04298638159953053
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 0.2401975,
+          "model_p50_ns": 7510561.5,
+          "model_p95_ns": 9915091.95,
+          "model_p99_ns": 10792151.79,
+          "ratio": 1.031981297270517,
+          "ready_p50_ns": 7750759.0,
+          "ready_p95_ns": 9485388.049999999,
+          "ready_p99_ns": 10278041.69,
+          "session_id": 2,
+          "z_ln": 0.03148054409526435
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path"
+          ],
+          "delta_ms": 0.0413795,
+          "model_p50_ns": 7801099.0,
+          "model_p95_ns": 9712588.499999998,
+          "model_p99_ns": 10632638.19,
+          "ratio": 1.0053043167379365,
+          "ready_p50_ns": 7842478.5,
+          "ready_p95_ns": 9846409.5,
+          "ready_p99_ns": 10744898.5,
+          "session_id": 3,
+          "z_ln": 0.005290298399861601
+        },
+        {
+          "arm_order": [
+            "original_path",
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only"
+          ],
+          "delta_ms": 0.3341125,
+          "model_p50_ns": 7527226.5,
+          "model_p95_ns": 9348087.0,
+          "model_p99_ns": 10323879.18,
+          "ratio": 1.0443871989238,
+          "ready_p50_ns": 7861339.0,
+          "ready_p95_ns": 9756981.0,
+          "ready_p99_ns": 10822183.59,
+          "session_id": 4,
+          "z_ln": 0.043430300896598543
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 0.1005885,
+          "model_p50_ns": 7646366.0,
+          "model_p95_ns": 9226334.45,
+          "model_p99_ns": 10423584.1,
+          "ratio": 1.01315507261881,
+          "ready_p50_ns": 7746954.5,
+          "ready_p95_ns": 9505059.549999999,
+          "ready_p99_ns": 10844945.1,
+          "session_id": 5,
+          "z_ln": 0.013069296096324881
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "original_path",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 0.01794,
+          "model_p50_ns": 7769669.0,
+          "model_p95_ns": 10126598.999999996,
+          "model_p99_ns": 11048448.9,
+          "ratio": 1.0023089786707773,
+          "ready_p50_ns": 7787609.0,
+          "ready_p95_ns": 9693194.949999997,
+          "ready_p99_ns": 10474351.889999999,
+          "session_id": 6,
+          "z_ln": 0.0023063170757829173
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "model_only",
+            "original_path",
+            "policy_ready"
+          ],
+          "delta_ms": 0.0358895,
+          "model_p50_ns": 7617106.0,
+          "model_p95_ns": 9230739.0,
+          "model_p99_ns": 10552594.9,
+          "ratio": 1.0047116975922352,
+          "ready_p50_ns": 7652995.5,
+          "ready_p95_ns": 9597946.499999996,
+          "ready_p99_ns": 10922500.7,
+          "session_id": 7,
+          "z_ln": 0.004700632289096578
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only",
+            "original_path"
+          ],
+          "delta_ms": 0.2589675,
+          "model_p50_ns": 7596246.0,
+          "model_p95_ns": 9673867.5,
+          "model_p99_ns": 10963271.09,
+          "ratio": 1.034091510464511,
+          "ready_p50_ns": 7855213.5,
+          "ready_p95_ns": 9493881.5,
+          "ready_p99_ns": 10650972.089999998,
+          "session_id": 8,
+          "z_ln": 0.033523273586573
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path",
+            "model_only"
+          ],
+          "delta_ms": -0.0634495,
+          "model_p50_ns": 7719440.0,
+          "model_p95_ns": 9525688.0,
+          "model_p99_ns": 10525850.8,
+          "ratio": 0.9917805566206875,
+          "ready_p50_ns": 7655990.5,
+          "ready_p95_ns": 9774555.499999998,
+          "ready_p99_ns": 10822134.5,
+          "session_id": 9,
+          "z_ln": -0.00825340925247183
+        }
+      ],
+      "primary_tost": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_z": [
+          0.010934793818058546,
+          0.029600648542943836
+        ],
+        "ci_level": 0.9,
+        "delta_L": -0.05129329438755058,
+        "delta_U": 0.04879016416943205,
+        "estimand": "mean_z_ln_ready_over_model",
+        "exp_mean_z": 1.0205253127287348,
+        "mean_z": 0.02031750720192076,
+        "sesoi_ratio": [
+          0.95,
+          1.05
+        ],
+        "session_ratios": [
+          1.0352484406963478,
+          1.0439236781830996,
+          1.031981297270517,
+          1.0053043167379365,
+          1.0443871989238,
+          1.01315507261881,
+          1.0023089786707773,
+          1.0047116975922352,
+          1.034091510464511,
+          0.9917805566206875
+        ],
+        "session_z": [
+          0.03464143723264703,
+          0.04298638159953053,
+          0.03148054409526435,
+          0.005290298399861601,
+          0.043430300896598543,
+          0.013069296096324881,
+          0.0023063170757829173,
+          0.004700632289096578,
+          0.033523273586573,
+          -0.00825340925247183
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "protocol_complete": true,
+      "role": "perception_bounded",
+      "secondary_absolute_tost_ms": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_delta_ms": [
+          0.08413829999999999,
+          0.2276796
+        ],
+        "ci_level": 0.9,
+        "estimand": "mean_delta_ms_ready_minus_model",
+        "mean_delta_ms": 0.15618005,
+        "role": "secondary_complement_not_gate_primary",
+        "sesoi_ms": [
+          -1.0,
+          1.0
+        ],
+        "session_delta_ms": [
+          0.266578,
+          0.329597,
+          0.2401975,
+          0.0413795,
+          0.3341125,
+          0.1005885,
+          0.01794,
+          0.0358895,
+          0.2589675,
+          -0.0634495
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "sessions_required": 10
+    }
+  ],
+  "completeness": {
+    "incomplete_artifacts": [],
+    "limitation": "Study A requires 10 sessions \u00d7 four runnable artifacts / three lineages. Incomplete or missing artifacts keep overall PARTIAL; timings are not fabricated. Not actuator-ready distributed evidence (pending G5); not formal WCET; TM-H1 remains UNSUPPORTED.",
+    "missing_lineages": [],
+    "n_artifacts_complete": 4,
+    "n_artifacts_expected": 4,
+    "n_lineages_expected": 3,
+    "n_lineages_measured": 3,
+    "sessions_required": 10
+  },
+  "denominator": {
+    "n_artifacts": 4,
+    "n_lineages": 3,
+    "note": "MSDNet and SDN share L-EARLYEXIT-VISION-CNN",
+    "phrase": "four runnable artifacts from three independent timing lineages"
+  },
+  "frozen": {
+    "abs_sesoi_ms": 1.0,
+    "alpha": 0.05,
+    "arm_order_seed_base": 35000,
+    "bootstrap_seed": 202608035,
+    "delta_L": -0.05129329438755058,
+    "delta_U": 0.04879016416943205,
+    "n_boot": 5000,
+    "sesoi_ratio": [
+      0.95,
+      1.05
+    ],
+    "sessions_required": 10,
+    "tost_ci_level": 0.9
+  },
+  "gate": "Study A",
+  "lineage_rows": [
+    {
+      "artifact_ids": [
+        "rd_vla_recurrent_depth"
+      ],
+      "artifact_verdicts": [
+        "EQUIVALENT"
+      ],
+      "lineage_id": "L-ADAPTIVE-DEPTH-VLA",
+      "lineage_verdict_conservative": "EQUIVALENT",
+      "n_artifacts": 1,
+      "pooled_descriptive": {
+        "ci90_z": [
+          -0.006856238144100945,
+          0.016096242987871122
+        ],
+        "mean_z": 0.0033069359254539856,
+        "n_sessions_pooled": 10,
+        "note": "descriptive; gate uses conservative per-artifact-all-pass rule",
+        "tost_verdict": "EQUIVALENT"
+      }
+    },
+    {
+      "artifact_ids": [
+        "sdp_streaming_diffusion_policy"
+      ],
+      "artifact_verdicts": [
+        "EQUIVALENT"
+      ],
+      "lineage_id": "L-DIFFUSION-POLICY-FAMILY",
+      "lineage_verdict_conservative": "EQUIVALENT",
+      "n_artifacts": 1,
+      "pooled_descriptive": {
+        "ci90_z": [
+          0.005440128815068262,
+          0.015477898398229944
+        ],
+        "mean_z": 0.010212969185012763,
+        "n_sessions_pooled": 10,
+        "note": "descriptive; gate uses conservative per-artifact-all-pass rule",
+        "tost_verdict": "EQUIVALENT"
+      }
+    },
+    {
+      "artifact_ids": [
+        "msdnet_pytorch_kalviny",
+        "sdn_kaya_shallow_deep"
+      ],
+      "artifact_verdicts": [
+        "EQUIVALENT",
+        "EQUIVALENT"
+      ],
+      "lineage_id": "L-EARLYEXIT-VISION-CNN",
+      "lineage_verdict_conservative": "EQUIVALENT",
+      "n_artifacts": 2,
+      "pooled_descriptive": {
+        "ci90_z": [
+          0.006585943651333473,
+          0.024784357910736052
+        ],
+        "mean_z": 0.01637109056664842,
+        "n_sessions_pooled": 20,
+        "note": "descriptive; gate uses conservative per-artifact-all-pass rule",
+        "tost_verdict": "EQUIVALENT"
+      }
+    }
+  ],
+  "overall": {
+    "actuator_ready_distributed": "SKIP_pending-G5",
+    "formal_wcet": false,
+    "tm_h1": "UNSUPPORTED",
+    "n_artifacts": 4,
+    "n_artifacts_complete": 4,
+    "n_artifacts_equivalent": 4,
+    "n_lineages_equivalent": 3,
+    "n_lineages_expected": 3,
+    "n_lineages_measured": 3,
+    "note": "Study A is an equivalence complement to the G3 null; it does not promote TM-H1. EQUIVALENCE_HOLDS applies only to this compute-bound local TOST gate; not H1, not distributed actuator-ready, not WCET.",
+    "verdict": "EQUIVALENCE_HOLDS"
+  },
+  "per_artifact": [
+    {
+      "artifact_id": "sdp_streaming_diffusion_policy",
+      "descriptive_median_ratio_g3_continuity": {
+        "ci95": [
+          1.0031230295835099,
+          1.0181563897264232
+        ],
+        "median_ratio": 1.0072157189891253,
+        "n_boot": 5000,
+        "n_sessions": 10,
+        "seed": 202608035,
+        "session_ratios": [
+          1.0181563897264232,
+          1.0206256125260844,
+          0.998849998378005,
+          1.0000849333969304,
+          1.0321781433462134,
+          1.007262213252439,
+          1.0080309269161818,
+          1.006161125770089,
+          1.0046047146758181,
+          1.0071692247258117
+        ]
+      },
+      "error": null,
+      "lineage_id": "L-DIFFUSION-POLICY-FAMILY",
+      "n_sessions": 10,
+      "note": null,
+      "per_session": [
+        {
+          "arm_order": [
+            "original_path",
+            "actuator_ready_local",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 8.7301105,
+          "model_p50_ns": 480828547.5,
+          "model_p95_ns": 486026966.0,
+          "model_p99_ns": 488845705.77,
+          "ratio": 1.0181563897264232,
+          "ready_p50_ns": 489558658.0,
+          "ready_p95_ns": 501667035.3,
+          "ready_p99_ns": 507392757.78,
+          "session_id": 0,
+          "z_ln": 0.017993530814979036
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 9.984518,
+          "model_p50_ns": 484083466.0,
+          "model_p95_ns": 493960065.75,
+          "model_p99_ns": 496877058.90999997,
+          "ratio": 1.0206256125260844,
+          "ready_p50_ns": 494067984.0,
+          "ready_p95_ns": 507032486.45,
+          "ready_p99_ns": 509126864.29,
+          "session_id": 1,
+          "z_ln": 0.020415784890443687
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": -0.559759,
+          "model_p50_ns": 486746270.0,
+          "model_p95_ns": 491309570.75,
+          "model_p99_ns": 493540286.04,
+          "ratio": 0.998849998378005,
+          "ready_p50_ns": 486186511.0,
+          "ready_p95_ns": 501586247.25,
+          "ready_p99_ns": 505672834.53,
+          "session_id": 2,
+          "z_ln": -0.0011506633812583978
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path"
+          ],
+          "delta_ms": 0.0414045,
+          "model_p50_ns": 487493748.0,
+          "model_p95_ns": 499458309.45,
+          "model_p99_ns": 504703384.87,
+          "ratio": 1.0000849333969304,
+          "ready_p50_ns": 487535152.5,
+          "ready_p95_ns": 500117334.2,
+          "ready_p99_ns": 504104179.89,
+          "session_id": 3,
+          "z_ln": 8.492979029364414e-05
+        },
+        {
+          "arm_order": [
+            "original_path",
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only"
+          ],
+          "delta_ms": 15.539833,
+          "model_p50_ns": 482931312.5,
+          "model_p95_ns": 497084680.1,
+          "model_p99_ns": 502309889.59,
+          "ratio": 1.0321781433462134,
+          "ready_p50_ns": 498471145.5,
+          "ready_p95_ns": 505257661.15,
+          "ready_p99_ns": 507037600.17,
+          "session_id": 4,
+          "z_ln": 0.0316712716838603
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 3.5075655,
+          "model_p50_ns": 482988502.0,
+          "model_p95_ns": 491934210.85,
+          "model_p99_ns": 493880589.06,
+          "ratio": 1.007262213252439,
+          "ready_p50_ns": 486496067.5,
+          "ready_p95_ns": 493291936.7,
+          "ready_p99_ns": 495399891.69,
+          "session_id": 5,
+          "z_ln": 0.007235970359505325
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "original_path",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 3.871192,
+          "model_p50_ns": 482035516.0,
+          "model_p95_ns": 489634749.2,
+          "model_p99_ns": 491155025.53,
+          "ratio": 1.0080309269161818,
+          "ready_p50_ns": 485906708.0,
+          "ready_p95_ns": 494235428.8,
+          "ready_p99_ns": 495473544.21999997,
+          "session_id": 6,
+          "z_ln": 0.007998850642976433
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "model_only",
+            "original_path",
+            "policy_ready"
+          ],
+          "delta_ms": 2.9822215,
+          "model_p50_ns": 484038406.5,
+          "model_p95_ns": 489517805.0,
+          "model_p99_ns": 491124062.76,
+          "ratio": 1.006161125770089,
+          "ready_p50_ns": 487020628.0,
+          "ready_p95_ns": 492449346.25,
+          "ready_p99_ns": 497514826.48,
+          "session_id": 7,
+          "z_ln": 0.0061422236339389435
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only",
+            "original_path"
+          ],
+          "delta_ms": 2.274888,
+          "model_p50_ns": 494034519.0,
+          "model_p95_ns": 501589252.45,
+          "model_p99_ns": 502762618.84,
+          "ratio": 1.0046047146758181,
+          "ready_p50_ns": 496309407.0,
+          "ready_p95_ns": 504551152.7,
+          "ready_p99_ns": 506064531.96,
+          "session_id": 8,
+          "z_ln": 0.004594145410409889
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path",
+            "model_only"
+          ],
+          "delta_ms": 3.4636455,
+          "model_p50_ns": 483126925.5,
+          "model_p95_ns": 495382872.85,
+          "model_p99_ns": 496431675.8,
+          "ratio": 1.0071692247258117,
+          "ready_p50_ns": 486590571.0,
+          "ready_p95_ns": 491504870.75,
+          "ready_p99_ns": 494849176.01,
+          "session_id": 9,
+          "z_ln": 0.007143648004978753
+        }
+      ],
+      "primary_tost": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_z": [
+          0.005440128815068262,
+          0.015477898398229944
+        ],
+        "ci_level": 0.9,
+        "delta_L": -0.05129329438755058,
+        "delta_U": 0.04879016416943205,
+        "estimand": "mean_z_ln_ready_over_model",
+        "exp_mean_z": 1.010265299552554,
+        "mean_z": 0.010212969185012763,
+        "sesoi_ratio": [
+          0.95,
+          1.05
+        ],
+        "session_ratios": [
+          1.0181563897264232,
+          1.0206256125260844,
+          0.998849998378005,
+          1.0000849333969304,
+          1.0321781433462134,
+          1.007262213252439,
+          1.0080309269161818,
+          1.006161125770089,
+          1.0046047146758181,
+          1.0071692247258117
+        ],
+        "session_z": [
+          0.017993530814979036,
+          0.020415784890443687,
+          -0.0011506633812583978,
+          8.492979029364414e-05,
+          0.0316712716838603,
+          0.007235970359505325,
+          0.007998850642976433,
+          0.0061422236339389435,
+          0.004594145410409889,
+          0.007143648004978753
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "protocol_complete": true,
+      "role": "robot",
+      "secondary_absolute_tost_ms": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_delta_ms": [
+          2.6471805500000003,
+          7.570776149999999
+        ],
+        "ci_level": 0.9,
+        "estimand": "mean_delta_ms_ready_minus_model",
+        "mean_delta_ms": 4.9835619499999995,
+        "role": "secondary_complement_not_gate_primary",
+        "sesoi_ms": [
+          -1.0,
+          1.0
+        ],
+        "session_delta_ms": [
+          8.7301105,
+          9.984518,
+          -0.559759,
+          0.0414045,
+          15.539833,
+          3.5075655,
+          3.871192,
+          2.9822215,
+          2.274888,
+          3.4636455
+        ],
+        "verdict": "NOT-EQUIVALENT"
+      },
+      "sessions_required": 10
+    },
+    {
+      "artifact_id": "rd_vla_recurrent_depth",
+      "descriptive_median_ratio_g3_continuity": {
+        "ci95": [
+          0.9894933509245867,
+          1.0101835982702414
+        ],
+        "median_ratio": 0.9947449539954293,
+        "n_boot": 5000,
+        "n_sessions": 10,
+        "seed": 202608035,
+        "session_ratios": [
+          0.9959506972915816,
+          0.9833981227964053,
+          1.0640846367102557,
+          0.9866738795519756,
+          0.993539210699277,
+          1.0184666045110475,
+          0.9924754515915358,
+          1.0019005920294355,
+          0.9894933509245867,
+          1.009614849781047
+        ]
+      },
+      "error": null,
+      "lineage_id": "L-ADAPTIVE-DEPTH-VLA",
+      "n_sessions": 10,
+      "note": null,
+      "per_session": [
+        {
+          "arm_order": [
+            "original_path",
+            "actuator_ready_local",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": -0.319502,
+          "model_p50_ns": 78902967.5,
+          "model_p95_ns": 87646623.2,
+          "model_p99_ns": 89801022.23,
+          "ratio": 0.9959506972915816,
+          "ready_p50_ns": 78583465.5,
+          "ready_p95_ns": 85388851.85,
+          "ready_p99_ns": 88846190.48,
+          "session_id": 0,
+          "z_ln": -0.004057523334002925
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": -1.3128485,
+          "model_p50_ns": 79078316.5,
+          "model_p95_ns": 87087828.2,
+          "model_p99_ns": 88426922.72,
+          "ratio": 0.9833981227964053,
+          "ready_p50_ns": 77765468.0,
+          "ready_p95_ns": 84627748.39999999,
+          "ready_p99_ns": 86723970.07,
+          "session_id": 1,
+          "z_ln": -0.01674123289730845
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 4.982756,
+          "model_p50_ns": 77752738.5,
+          "model_p95_ns": 85049017.2,
+          "model_p99_ns": 88207271.32999998,
+          "ratio": 1.0640846367102557,
+          "ready_p50_ns": 82735494.5,
+          "ready_p95_ns": 86880004.25,
+          "ready_p99_ns": 87321398.9,
+          "session_id": 2,
+          "z_ln": 0.06211493353617029
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path"
+          ],
+          "delta_ms": -1.0546395,
+          "model_p50_ns": 79140775.0,
+          "model_p95_ns": 84490824.0,
+          "model_p99_ns": 86723391.91,
+          "ratio": 0.9866738795519756,
+          "ready_p50_ns": 78086135.5,
+          "ready_p95_ns": 86546859.4,
+          "ready_p99_ns": 88347551.8,
+          "session_id": 3,
+          "z_ln": -0.01341571000212918
+        },
+        {
+          "arm_order": [
+            "original_path",
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only"
+          ],
+          "delta_ms": -0.505935,
+          "model_p50_ns": 78308543.5,
+          "model_p95_ns": 84977648.45,
+          "model_p99_ns": 86234367.57,
+          "ratio": 0.993539210699277,
+          "ready_p50_ns": 77802608.5,
+          "ready_p95_ns": 85977169.35,
+          "ready_p99_ns": 87554170.42999999,
+          "session_id": 4,
+          "z_ln": -0.0064817505327633826
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 1.43872,
+          "model_p50_ns": 77909287.5,
+          "model_p95_ns": 85072981.4,
+          "model_p99_ns": 88720846.13,
+          "ratio": 1.0184666045110475,
+          "ready_p50_ns": 79348007.5,
+          "ready_p95_ns": 87465085.75,
+          "ready_p99_ns": 90427654.47,
+          "session_id": 5,
+          "z_ln": 0.018298167252749954
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "original_path",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": -0.5949545,
+          "model_p50_ns": 79068466.0,
+          "model_p95_ns": 85022763.1,
+          "model_p99_ns": 87039465.56,
+          "ratio": 0.9924754515915358,
+          "ready_p50_ns": 78473511.5,
+          "ready_p95_ns": 84790690.94999999,
+          "ready_p99_ns": 87666127.25,
+          "session_id": 6,
+          "z_ln": -0.0075530006394900874
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "model_only",
+            "original_path",
+            "policy_ready"
+          ],
+          "delta_ms": 0.1498385,
+          "model_p50_ns": 78837803.0,
+          "model_p95_ns": 86777808.95,
+          "model_p99_ns": 88603777.74,
+          "ratio": 1.0019005920294355,
+          "ready_p50_ns": 78987641.5,
+          "ready_p95_ns": 84713206.4,
+          "ready_p99_ns": 86335179.82,
+          "session_id": 7,
+          "z_ln": 0.0018987881896184015
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only",
+            "original_path"
+          ],
+          "delta_ms": -0.836331,
+          "model_p50_ns": 79600165.0,
+          "model_p95_ns": 87659460.35,
+          "model_p99_ns": 91691153.82,
+          "ratio": 0.9894933509245867,
+          "ready_p50_ns": 78763834.0,
+          "ready_p95_ns": 87919177.6,
+          "ready_p99_ns": 93046224.72999999,
+          "session_id": 8,
+          "z_ln": -0.010562233593637999
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path",
+            "model_only"
+          ],
+          "delta_ms": 0.753748,
+          "model_p50_ns": 78394152.5,
+          "model_p95_ns": 87534081.6,
+          "model_p99_ns": 93142642.74,
+          "ratio": 1.009614849781047,
+          "ready_p50_ns": 79147900.5,
+          "ready_p95_ns": 86587574.8,
+          "ready_p99_ns": 90428258.53999999,
+          "session_id": 9,
+          "z_ln": 0.009568921275333233
+        }
+      ],
+      "primary_tost": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_z": [
+          -0.006856238144100945,
+          0.016096242987871122
+        ],
+        "ci_level": 0.9,
+        "delta_L": -0.05129329438755058,
+        "delta_U": 0.04879016416943205,
+        "estimand": "mean_z_ln_ready_over_model",
+        "exp_mean_z": 1.0033124098703934,
+        "mean_z": 0.0033069359254539856,
+        "sesoi_ratio": [
+          0.95,
+          1.05
+        ],
+        "session_ratios": [
+          0.9959506972915816,
+          0.9833981227964053,
+          1.0640846367102557,
+          0.9866738795519756,
+          0.993539210699277,
+          1.0184666045110475,
+          0.9924754515915358,
+          1.0019005920294355,
+          0.9894933509245867,
+          1.009614849781047
+        ],
+        "session_z": [
+          -0.004057523334002925,
+          -0.01674123289730845,
+          0.06211493353617029,
+          -0.01341571000212918,
+          -0.0064817505327633826,
+          0.018298167252749954,
+          -0.0075530006394900874,
+          0.0018987881896184015,
+          -0.010562233593637999,
+          0.009568921275333233
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "protocol_complete": true,
+      "role": "robot",
+      "secondary_absolute_tost_ms": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_delta_ms": [
+          -0.53870505,
+          1.293538
+        ],
+        "ci_level": 0.9,
+        "estimand": "mean_delta_ms_ready_minus_model",
+        "mean_delta_ms": 0.27008519999999997,
+        "role": "secondary_complement_not_gate_primary",
+        "sesoi_ms": [
+          -1.0,
+          1.0
+        ],
+        "session_delta_ms": [
+          -0.319502,
+          -1.3128485,
+          4.982756,
+          -1.0546395,
+          -0.505935,
+          1.43872,
+          -0.5949545,
+          0.1498385,
+          -0.836331,
+          0.753748
+        ],
+        "verdict": "INCONCLUSIVE"
+      },
+      "sessions_required": 10
+    },
+    {
+      "artifact_id": "msdnet_pytorch_kalviny",
+      "descriptive_median_ratio_g3_continuity": {
+        "ci95": [
+          1.0085542605858089,
+          1.0305834125077236
+        ],
+        "median_ratio": 1.0194300134116698,
+        "n_boot": 5000,
+        "n_sessions": 10,
+        "seed": 202608035,
+        "session_ratios": [
+          1.0085542605858089,
+          0.9380312225456577,
+          1.0106670388339016,
+          1.0210238048971634,
+          1.0465789831516406,
+          0.9997093591516172,
+          1.017836221926176,
+          1.037957880811306,
+          1.0254899607718013,
+          1.0232089442041412
+        ]
+      },
+      "error": null,
+      "lineage_id": "L-EARLYEXIT-VISION-CNN",
+      "n_sessions": 10,
+      "note": null,
+      "per_session": [
+        {
+          "arm_order": [
+            "original_path",
+            "actuator_ready_local",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 0.0984585,
+          "model_p50_ns": 11509878.5,
+          "model_p95_ns": 14822611.449999996,
+          "model_p99_ns": 17112437.69,
+          "ratio": 1.0085542605858089,
+          "ready_p50_ns": 11608337.0,
+          "ready_p95_ns": 14462679.499999998,
+          "ready_p99_ns": 16582129.61,
+          "session_id": 0,
+          "z_ln": 0.008517880222900938
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": -0.7653175,
+          "model_p50_ns": 12350050.0,
+          "model_p95_ns": 14073899.999999998,
+          "model_p99_ns": 16615686.379999999,
+          "ratio": 0.9380312225456577,
+          "ready_p50_ns": 11584732.5,
+          "ready_p95_ns": 13739045.5,
+          "ready_p99_ns": 15444854.1,
+          "session_id": 1,
+          "z_ln": -0.06397204423387845
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 0.1225585,
+          "model_p50_ns": 11489458.5,
+          "model_p95_ns": 14055318.45,
+          "model_p99_ns": 17532938.1,
+          "ratio": 1.0106670388339016,
+          "ready_p50_ns": 11612017.0,
+          "ready_p95_ns": 14255017.499999998,
+          "ready_p99_ns": 16732666.5,
+          "session_id": 2,
+          "z_ln": 0.010610547351296313
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path"
+          ],
+          "delta_ms": 0.2356425,
+          "model_p50_ns": 11208366.0,
+          "model_p95_ns": 13747512.95,
+          "model_p99_ns": 15671197.389999999,
+          "ratio": 1.0210238048971634,
+          "ready_p50_ns": 11444008.5,
+          "ready_p95_ns": 14456278.949999997,
+          "ready_p99_ns": 16578164.889999999,
+          "session_id": 3,
+          "z_ln": 0.020805854187091494
+        },
+        {
+          "arm_order": [
+            "original_path",
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only"
+          ],
+          "delta_ms": 0.5100605,
+          "model_p50_ns": 10950443.0,
+          "model_p95_ns": 13035823.5,
+          "model_p99_ns": 14433593.339999994,
+          "ratio": 1.0465789831516406,
+          "ready_p50_ns": 11460503.5,
+          "ready_p95_ns": 13852646.0,
+          "ready_p99_ns": 15408250.489999998,
+          "session_id": 4,
+          "z_ln": 0.04552673368386769
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": -0.003265,
+          "model_p50_ns": 11233796.0,
+          "model_p95_ns": 13540697.499999998,
+          "model_p99_ns": 16526048.6,
+          "ratio": 0.9997093591516172,
+          "ready_p50_ns": 11230531.0,
+          "ready_p95_ns": 13659215.0,
+          "ready_p99_ns": 16561693.179999998,
+          "session_id": 5,
+          "z_ln": -0.000290683092619657
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "original_path",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 0.199863,
+          "model_p50_ns": 11205456.0,
+          "model_p95_ns": 13261768.5,
+          "model_p99_ns": 14717987.459999995,
+          "ratio": 1.017836221926176,
+          "ready_p50_ns": 11405319.0,
+          "ready_p95_ns": 13655169.0,
+          "ready_p99_ns": 16544848.6,
+          "session_id": 6,
+          "z_ln": 0.0176790229910765
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "model_only",
+            "original_path",
+            "policy_ready"
+          ],
+          "delta_ms": 0.422696,
+          "model_p50_ns": 11135922.0,
+          "model_p95_ns": 13344873.499999998,
+          "model_p99_ns": 14786152.29,
+          "ratio": 1.037957880811306,
+          "ready_p50_ns": 11558618.0,
+          "ready_p95_ns": 13709807.95,
+          "ready_p99_ns": 14722446.79,
+          "session_id": 7,
+          "z_ln": 0.03725520666734073
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only",
+            "original_path"
+          ],
+          "delta_ms": 0.286322,
+          "model_p50_ns": 11232736.0,
+          "model_p95_ns": 13926448.049999999,
+          "model_p99_ns": 16238698.5,
+          "ratio": 1.0254899607718013,
+          "ready_p50_ns": 11519058.0,
+          "ready_p95_ns": 14197026.5,
+          "ready_p99_ns": 16343765.5,
+          "session_id": 8,
+          "z_ln": 0.025170508888817042
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path",
+            "model_only"
+          ],
+          "delta_ms": 0.259572,
+          "model_p50_ns": 11184136.5,
+          "model_p95_ns": 13361304.0,
+          "model_p99_ns": 15085320.979999999,
+          "ratio": 1.0232089442041412,
+          "ready_p50_ns": 11443708.5,
+          "ready_p95_ns": 14360116.0,
+          "ready_p99_ns": 17314916.779999997,
+          "session_id": 9,
+          "z_ln": 0.022943712647868236
+        }
+      ],
+      "primary_tost": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_z": [
+          -0.0035353641523862027,
+          0.02548420545112181
+        ],
+        "ci_level": 0.9,
+        "delta_L": -0.05129329438755058,
+        "delta_U": 0.04879016416943205,
+        "estimand": "mean_z_ln_ready_over_model",
+        "exp_mean_z": 1.012502180859328,
+        "mean_z": 0.012424673931376083,
+        "sesoi_ratio": [
+          0.95,
+          1.05
+        ],
+        "session_ratios": [
+          1.0085542605858089,
+          0.9380312225456577,
+          1.0106670388339016,
+          1.0210238048971634,
+          1.0465789831516406,
+          0.9997093591516172,
+          1.017836221926176,
+          1.037957880811306,
+          1.0254899607718013,
+          1.0232089442041412
+        ],
+        "session_z": [
+          0.008517880222900938,
+          -0.06397204423387845,
+          0.010610547351296313,
+          0.020805854187091494,
+          0.04552673368386769,
+          -0.000290683092619657,
+          0.0176790229910765,
+          0.03725520666734073,
+          0.025170508888817042,
+          0.022943712647868236
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "protocol_complete": true,
+      "role": "perception_bounded",
+      "secondary_absolute_tost_ms": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_delta_ms": [
+          -0.05209459999999999,
+          0.2880876
+        ],
+        "ci_level": 0.9,
+        "estimand": "mean_delta_ms_ready_minus_model",
+        "mean_delta_ms": 0.13665905,
+        "role": "secondary_complement_not_gate_primary",
+        "sesoi_ms": [
+          -1.0,
+          1.0
+        ],
+        "session_delta_ms": [
+          0.0984585,
+          -0.7653175,
+          0.1225585,
+          0.2356425,
+          0.5100605,
+          -0.003265,
+          0.199863,
+          0.422696,
+          0.286322,
+          0.259572
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "sessions_required": 10
+    },
+    {
+      "artifact_id": "sdn_kaya_shallow_deep",
+      "descriptive_median_ratio_g3_continuity": {
+        "ci95": [
+          1.0038066477043568,
+          1.0390075943238053
+        ],
+        "median_ratio": 1.0225681849446635,
+        "n_boot": 5000,
+        "n_sessions": 10,
+        "seed": 202608035,
+        "session_ratios": [
+          1.0352484406963478,
+          1.0439236781830996,
+          1.031981297270517,
+          1.0053043167379365,
+          1.0443871989238,
+          1.01315507261881,
+          1.0023089786707773,
+          1.0047116975922352,
+          1.034091510464511,
+          0.9917805566206875
+        ]
+      },
+      "error": null,
+      "lineage_id": "L-EARLYEXIT-VISION-CNN",
+      "n_sessions": 10,
+      "note": null,
+      "per_session": [
+        {
+          "arm_order": [
+            "original_path",
+            "actuator_ready_local",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 0.266578,
+          "model_p50_ns": 7562831.0,
+          "model_p95_ns": 9849745.5,
+          "model_p99_ns": 10628272.799999999,
+          "ratio": 1.0352484406963478,
+          "ready_p50_ns": 7829409.0,
+          "ready_p95_ns": 9720195.0,
+          "ready_p99_ns": 10666117.799999999,
+          "session_id": 0,
+          "z_ln": 0.03464143723264703
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 0.329597,
+          "model_p50_ns": 7503857.0,
+          "model_p95_ns": 9610385.499999996,
+          "model_p99_ns": 10633240.8,
+          "ratio": 1.0439236781830996,
+          "ready_p50_ns": 7833454.0,
+          "ready_p95_ns": 9458926.45,
+          "ready_p99_ns": 10273794.4,
+          "session_id": 1,
+          "z_ln": 0.04298638159953053
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 0.2401975,
+          "model_p50_ns": 7510561.5,
+          "model_p95_ns": 9915091.95,
+          "model_p99_ns": 10792151.79,
+          "ratio": 1.031981297270517,
+          "ready_p50_ns": 7750759.0,
+          "ready_p95_ns": 9485388.049999999,
+          "ready_p99_ns": 10278041.69,
+          "session_id": 2,
+          "z_ln": 0.03148054409526435
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path"
+          ],
+          "delta_ms": 0.0413795,
+          "model_p50_ns": 7801099.0,
+          "model_p95_ns": 9712588.499999998,
+          "model_p99_ns": 10632638.19,
+          "ratio": 1.0053043167379365,
+          "ready_p50_ns": 7842478.5,
+          "ready_p95_ns": 9846409.5,
+          "ready_p99_ns": 10744898.5,
+          "session_id": 3,
+          "z_ln": 0.005290298399861601
+        },
+        {
+          "arm_order": [
+            "original_path",
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only"
+          ],
+          "delta_ms": 0.3341125,
+          "model_p50_ns": 7527226.5,
+          "model_p95_ns": 9348087.0,
+          "model_p99_ns": 10323879.18,
+          "ratio": 1.0443871989238,
+          "ready_p50_ns": 7861339.0,
+          "ready_p95_ns": 9756981.0,
+          "ready_p99_ns": 10822183.59,
+          "session_id": 4,
+          "z_ln": 0.043430300896598543
+        },
+        {
+          "arm_order": [
+            "model_only",
+            "policy_ready",
+            "original_path",
+            "actuator_ready_local"
+          ],
+          "delta_ms": 0.1005885,
+          "model_p50_ns": 7646366.0,
+          "model_p95_ns": 9226334.45,
+          "model_p99_ns": 10423584.1,
+          "ratio": 1.01315507261881,
+          "ready_p50_ns": 7746954.5,
+          "ready_p95_ns": 9505059.549999999,
+          "ready_p99_ns": 10844945.1,
+          "session_id": 5,
+          "z_ln": 0.013069296096324881
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "original_path",
+            "policy_ready",
+            "model_only"
+          ],
+          "delta_ms": 0.01794,
+          "model_p50_ns": 7769669.0,
+          "model_p95_ns": 10126598.999999996,
+          "model_p99_ns": 11048448.9,
+          "ratio": 1.0023089786707773,
+          "ready_p50_ns": 7787609.0,
+          "ready_p95_ns": 9693194.949999997,
+          "ready_p99_ns": 10474351.889999999,
+          "session_id": 6,
+          "z_ln": 0.0023063170757829173
+        },
+        {
+          "arm_order": [
+            "actuator_ready_local",
+            "model_only",
+            "original_path",
+            "policy_ready"
+          ],
+          "delta_ms": 0.0358895,
+          "model_p50_ns": 7617106.0,
+          "model_p95_ns": 9230739.0,
+          "model_p99_ns": 10552594.9,
+          "ratio": 1.0047116975922352,
+          "ready_p50_ns": 7652995.5,
+          "ready_p95_ns": 9597946.499999996,
+          "ready_p99_ns": 10922500.7,
+          "session_id": 7,
+          "z_ln": 0.004700632289096578
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "model_only",
+            "original_path"
+          ],
+          "delta_ms": 0.2589675,
+          "model_p50_ns": 7596246.0,
+          "model_p95_ns": 9673867.5,
+          "model_p99_ns": 10963271.09,
+          "ratio": 1.034091510464511,
+          "ready_p50_ns": 7855213.5,
+          "ready_p95_ns": 9493881.5,
+          "ready_p99_ns": 10650972.089999998,
+          "session_id": 8,
+          "z_ln": 0.033523273586573
+        },
+        {
+          "arm_order": [
+            "policy_ready",
+            "actuator_ready_local",
+            "original_path",
+            "model_only"
+          ],
+          "delta_ms": -0.0634495,
+          "model_p50_ns": 7719440.0,
+          "model_p95_ns": 9525688.0,
+          "model_p99_ns": 10525850.8,
+          "ratio": 0.9917805566206875,
+          "ready_p50_ns": 7655990.5,
+          "ready_p95_ns": 9774555.499999998,
+          "ready_p99_ns": 10822134.5,
+          "session_id": 9,
+          "z_ln": -0.00825340925247183
+        }
+      ],
+      "primary_tost": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_z": [
+          0.010934793818058546,
+          0.029600648542943836
+        ],
+        "ci_level": 0.9,
+        "delta_L": -0.05129329438755058,
+        "delta_U": 0.04879016416943205,
+        "estimand": "mean_z_ln_ready_over_model",
+        "exp_mean_z": 1.0205253127287348,
+        "mean_z": 0.02031750720192076,
+        "sesoi_ratio": [
+          0.95,
+          1.05
+        ],
+        "session_ratios": [
+          1.0352484406963478,
+          1.0439236781830996,
+          1.031981297270517,
+          1.0053043167379365,
+          1.0443871989238,
+          1.01315507261881,
+          1.0023089786707773,
+          1.0047116975922352,
+          1.034091510464511,
+          0.9917805566206875
+        ],
+        "session_z": [
+          0.03464143723264703,
+          0.04298638159953053,
+          0.03148054409526435,
+          0.005290298399861601,
+          0.043430300896598543,
+          0.013069296096324881,
+          0.0023063170757829173,
+          0.004700632289096578,
+          0.033523273586573,
+          -0.00825340925247183
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "protocol_complete": true,
+      "role": "perception_bounded",
+      "secondary_absolute_tost_ms": {
+        "alpha": 0.05,
+        "bootstrap": {
+          "ci_level": 0.9,
+          "n_boot": 5000,
+          "n_sessions": 10,
+          "seed": 202608035
+        },
+        "ci90_delta_ms": [
+          0.08413829999999999,
+          0.2276796
+        ],
+        "ci_level": 0.9,
+        "estimand": "mean_delta_ms_ready_minus_model",
+        "mean_delta_ms": 0.15618005,
+        "role": "secondary_complement_not_gate_primary",
+        "sesoi_ms": [
+          -1.0,
+          1.0
+        ],
+        "session_delta_ms": [
+          0.266578,
+          0.329597,
+          0.2401975,
+          0.0413795,
+          0.3341125,
+          0.1005885,
+          0.01794,
+          0.0358895,
+          0.2589675,
+          -0.0634495
+        ],
+        "verdict": "EQUIVALENT"
+      },
+      "sessions_required": 10
+    }
+  ],
+  "schema": "tm_g35_analysis_v1"
+}

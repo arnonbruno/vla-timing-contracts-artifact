@@ -1,0 +1,21 @@
+{
+  "schema": "analysis_lmodel_reconstruction_audit_v1",
+  "reconstruction_rule": "L_model_pi = candidate_exits[admitted_exit].model_cum_from_begin_ns (WSB-reported cumulative model time logged at Pi admission); deterministic; does not use tracking outcomes or arm labels",
+  "n_overlap_observations": 43260,
+  "n_sessions_total": 724,
+  "n_sessions_with_wsb_log": 402,
+  "n_sessions_without_wsb_log": 322,
+  "frac_sessions_reconstructed_only": 0.4447513812154696,
+  "abs_err_ns": {
+    "median": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "max": 17391468.0,
+    "mean": 402.0219140083218,
+    "frac_exact_zero": 0.9999768839574665,
+    "frac_le_1us": 0.9999768839574665,
+    "frac_le_1ms": 0.9999768839574665
+  },
+  "contract_resolution_note": "Deadline/period are 50\u2013150ms scale; 1ms = 1e6 ns",
+  "accept_if": "p95 abs error << deadline resolution (e.g. << 1ms) and rule is outcome-blind"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "analysis_long_horizon_v1",
+  "primary": "J_bar=J/T",
+  "T_s": 15.0,
+  "delta_eq_Jbar": 0.0016666666666666668,
+  "n_pairs": 40,
+  "delta_Jbar_mean": 0.0034228049831092145,
+  "delta_Jbar_ci90": [
+    -4.410860172162264e-07,
+    0.008495465017705327
+  ],
+  "equivalence_CI_containment": false,
+  "verdict": "equivalence_inconclusive",
+  "note": "CI not contained in \u00b1delta_eq does not alone demonstrate non-equivalence; if CI overlaps the band, report equivalence_inconclusive.",
+  "secondary_delta_J_mean": 0.05134207474663821,
+  "secondary_note": "raw integrated Delta_J is not a 15s materiality claim without a 15s SESOI"
+}

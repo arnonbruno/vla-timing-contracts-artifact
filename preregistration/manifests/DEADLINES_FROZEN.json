@@ -1,0 +1,26 @@
+{
+  "schema": "analysis_deadlines_frozen_v1",
+  "source": "sc_c1_actuator_ready_L_act_as_L_ready",
+  "n_L_ready": 9659,
+  "quantiles_ns": {
+    "q20": 50043416.0,
+    "q50": 50062201.0,
+    "q95": 50112256.0
+  },
+  "rules": {
+    "D_loose": "ceil_ms(Q95(L_ready))+20ms",
+    "D_boundary": "ceil_ms(Q50(L_ready))+10ms",
+    "D_tight": "ceil_ms(Q20(L_ready))"
+  },
+  "deadlines_ns": {
+    "D_loose": 71000000,
+    "D_boundary": 61000000,
+    "D_tight": 51000000
+  },
+  "deadlines_ms": {
+    "D_loose": 71.0,
+    "D_boundary": 61.0,
+    "D_tight": 51.0
+  },
+  "chosen_from_tracking": false
+}
